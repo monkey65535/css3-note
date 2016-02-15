@@ -21,6 +21,9 @@ pre{
   display: block;
   font-size: 12px;
 }
+.red{
+  color: #eb444e;
+}
 .list{
   padding: 20px 0;
 }
@@ -134,10 +137,11 @@ pre{
     color:#000;
     background:#ccc url(http://static.mukewang.com/static/img/logo_index.png) no-repeat;
     background-origin: content-box;
-    position: relative;
     float: left;
     margin-right: 30px;
     color: #ffffff;
+    text-align: center;
+    line-height: 100px;
   }
   .background-origin1{
     background-origin: border-box;
@@ -148,4 +152,80 @@ pre{
   .background-origin3{
     background-origin: content-box;
   }
+}
+.clip{
+  li{
+    width:220px;
+    height: 100px;
+    border:20px dashed #000;
+    padding:20px;
+    font-weight:bold;
+    color:#000;
+    background:#ccc url(http://static.mukewang.com/static/img/logo_index.png) no-repeat;
+    background-origin: border-box;
+    background-clip: padding-box;
+    float: left;
+    margin-right: 30px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 100px;
+  }
+  .clip1{
+    background-clip: border-box;
+  }
+  .clip2{
+    background-clip: padding-box;
+  }
+  .clip3{
+    background-clip: content-box;
+  }
+  .clip4{
+    background-clip: no-clip;
+  }
+}
+.bg-size{
+  li{
+    background: url(http://static.mukewang.com/static/img/logo_index.png) no-repeat;
+    width: 300px;
+    height: 140px;
+    border: 1px solid #999;
+    background-size:cover;
+    float: left;
+    margin-right: 40px;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #eee;
+  }
+  .bg-size1{
+    background-size:auto ;
+  }
+  .bg-size2{
+    background-size:200px 50px ;
+  }
+  .bg-size3{
+    background-size:40% 20% ;
+  }
+  .bg-size4{
+    background-size:cover ;
+  }
+  .bg-size5{
+    background-size:contain ;
+  }
+}
+.bg-demo{
+  width: 300px;
+  height: 140px;
+  border: 1px solid #333333;
+  background-image: url("../img/bg1.jpg"),
+                    url("../img/bg2.jpg"),
+                    url("../img/bg3.jpg");
+  background-position: left top ,100px 0,200px 0;
+  background-repeat: no-repeat,no-repeat,no-repeat;
+}
+.bg-demo2{
+  width: 300px;
+  height: 140px;
+  border:1px solid #333;
+  background: url("../img/bg1.jpg") no-repeat left top,
+              url("../img/bg2.jpg") no-repeat 100px 0,
+              url("../img/bg3.jpg") no-repeat 200px 0;
 }

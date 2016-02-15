@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link type="text/css" rel="stylesheet" href="css/index.css"/>
+    <title>css3_learn</title>
+</head>
+<body>
+<div class="list">
+    <h4>1.圆角：border-radius：</h4>
+    <p>圆角属性为border-radius，有4个值，对应的方向为左上，右上，右下，左下</p>
+    <h5>展示</h5>
+    <span class="border-radius1"></span>
+    <span class="border-radius2"></span>
+</div>
+
+<div class="list">
+    <h4>2.阴影 box-shadow</h4>
+    <p>box-shadow:增加阴影，支持一个或者多个</p>
+    <img src="img/box-shadow.jpg">
+    <b class="notice">注意：inset 可以写在参数的第一个或最后一个，其它位置是无效的。</b>
+    <b class="notice">注意：X轴偏移和Y轴偏移可以设置负数</b>
+    <h5>展示</h5>
+    <ul class="ul_show clearfix">
+        <li>
+            <b>外阴影</b>
+            <div class="box-shadow1"></div>
+        <pre>
+            .box_shadow{
+                box-shadow:4px 2px 6px #333333;
+            }
+        </pre>
+        </li>
+        <li>
+            <b>内阴影</b>
+            <div class="box-shadow2"></div>
+        <pre>
+            .box_shadow{
+                box-shadow:4px 2px 6px #333333 inset;
+            }
+        </pre>
+        </li>
+        <li>
+            <b>多个阴影</b>
+            如果添加多个阴影，只需用逗号隔开即可。
+            <div class="box-shadow3"></div>
+        <pre>
+            .box_shadow{
+                box-shadow:4px 2px 6px #f00, -4px -2px 6px #000, 0px 0px 12px 5px #33CC00 inset;
+            }
+        </pre>
+        </li>
+    </ul>
+</div>
+
+<div class="list">
+    <h4>3.为边框应用图片 border-image</h4>
+    <div class="lan">
+        <em>语法为：</em>
+        <img src="img/border-img.jpg">
+    </div>
+    <div class="lan">
+        <div>使用下图做边框。可以为我们展示出三种不同的边框图片效果区别</div>
+        <img src="img/border-img2.jpg">
+    </div>
+    <div class="clearfix">
+        <div class="border-image border-image1">平铺 repeat</div>
+        <div class="border-image border-image2">环绕  round</div>
+        <div class="border-image border-image3">拉伸 stretch</div>
+    </div>
+</div>
+
+<div class="list">
+    <h4>4.渐变色彩</h4>
+    <div class="lan">
+        <em>语法为：</em>
+        <img src="img/gradient_1.jpg" alt="渐变语法"/>
+        <b class="notice">*径向渐变将to改为at</b>
+    </div>
+    <div class="lan">
+        <div>参数为：</div>
+        <img src="img/gradient_2.jpg" alt="渐变参数"/>
+    </div>
+    <div class="clearfix">
+        <div class="gradient gradient1">
+            线性渐变linear
+        </div>
+        <div class="gradient gradient2">
+            径向渐变radial
+        </div>
+        <div class="gradient gradient3">
+            多色彩径向渐变
+        </div>
+    </div>
+</div>
+<div class="list">
+    <h4>5.text-overflow 与 word-wrap</h4>
+    <div class="lan">
+        <div>text-overflow用来设置是否使用一个省略标记（...）标示对象内文本的溢出。</div>
+        <em>语法为：</em>
+        <img src="img/text-overflow.jpg" alt="文本溢出"/>
+        <div class="notice">
+            但是text-overflow只是用来说明文字溢出时用什么方式显示，要实现溢出时产生省略号的效果，还须定义强制文本在一行内显示（white-space:nowrap）及溢出内容为隐藏（overflow:hidden），只有这样才能实现溢出文本显示省略号的效果，代码如下：
+        </div>
+        <pre>
+            text-overflow:ellipsis;
+            overflow:hidden;
+            white-space:nowrap;
+        </pre>
+    </div>
+    <div class="lan">
+        <div>word-wrap也可以用来设置文本行为，当前行超过指定容器的边界时是否断开转行。</div>
+        <em>语法：</em>
+        <img src="img/word-warp.jpg" alt=""/>
+        <div class="notice">
+            normal为浏览器默认值，break-word设置在长单词或 URL地址内部进行换行，此属性不常用，用浏览器默认值即可。
+        </div>
+    </div>
+</div>
+<div class="list">
+    <h4>6.嵌入字体@font-face</h4>
+    <div class="lan">
+        <div>@font-face能够加载服务器端的字体文件，让浏览器端可以显示用户电脑里没有安装的字体。</div>
+        <em>语法：</em>
+        <pre>
+            @font-face{
+                font-family:字体名称；
+                src:字体文件在服务器上的路径。
+            }
+        </pre>
+        <div>设置之后就可以像普通字体一样在（font-*）中设置字体样式了</div>
+        <div>比如：</div>
+        <pre>
+            p{
+                font-size:12px;
+                font-family:"my font";
+                /*必须项，设置@font-face中的font-family同样的值*/
+            }
+        </pre>
+    </div>
+    <div class="list">
+        <h4>7.文本阴影</h4>
+        <div class="lan">
+            <em>语法：</em>
+            <pre>
+                text-shadow:X-offset Y-offset blur color;
+            </pre>
+        </div>
+        <p>
+            X-Offset：表示阴影的水平偏移距离，其值为正值时阴影向右偏移，反之向左偏移；<br/>
+
+            Y-Offset：是指阴影的垂直偏移距离，如果其值是正值时，阴影向下偏移，反之向上偏移；<br/>
+
+            Blur：是指阴影的模糊程度，其值不能是负值，如果值越大，阴影越模糊，反之阴影越清晰，如果不需要阴影模糊可以将Blur值设置为0；<br/>
+
+            Color：是指阴影的颜色，其可以使用rgba色。<br/>
+
+        </p>
+        <div class="lan">
+            <em>展示：</em>
+            <p class="text-shadow">
+              文本阴影text-shadow
+            </p>
+            <pre>
+                text-shadow:1px 2px 1px red;
+            </pre>
+        </div>
+    </div>
+</div>
+<div class="list">
+    <h4>8.background-origin 设置元素背景图的其实位置</h4>
+    <div class="lan">
+        <p>设置背景元素图片的原始起始位置</p>
+        <em>语法：</em>
+        <pre>
+            background-origin:border-box/padding-box/content-box
+        </pre>
+        <div class="notice">
+            参数分别表示背景图片是从边框，还是内边距（默认值），或者是内容区域开始显示。
+        </div>
+    </div>
+    <ul class="background-origin clearfix">
+        <li class="background-origin1">border-box</li>
+        <li class="background-origin2">padding-box</li>
+        <li class="background-origin3">content-box</li>
+    </ul>
+</div>
+</body>
+</html>

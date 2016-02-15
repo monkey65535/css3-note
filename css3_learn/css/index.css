@@ -1,0 +1,272 @@
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu {
+  margin: 0;
+  padding: 0;
+}
+
+header, footer, section, article, aside, nav, hgroup, address, figure, figcaption, menu, details {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th {
+  text-align: left;
+  font-weight: normal;
+}
+
+html, body, fieldset, img, iframe, abbr {
+  border: 0;
+}
+
+i, cite, em, var, address, dfn {
+  font-style: normal;
+}
+
+[hidefocus], summary {
+  outline: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, small {
+  font-size: 100%;
+}
+
+sup, sub {
+  font-size: 83%;
+}
+
+pre, code, kbd, samp {
+  font-family: inherit;
+}
+
+q:before, q:after {
+  content: none;
+}
+
+textarea {
+  overflow: auto;
+  resize: none;
+}
+
+label, summary {
+  cursor: default;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, em, strong, b {
+  font-weight: bold;
+}
+
+del, ins, u, s, a, a:hover {
+  text-decoration: none;
+}
+
+body, textarea, input, button, select, keygen, legend {
+  font-size: 14px/1.14;
+  font-family: "Helvetica Neue",Helvetica,"Microsoft Yahei",Arial,sans-serif;
+  color: #333;
+  outline: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  color: #333;
+}
+a:after {
+  color: #eb444e;
+  text-decoration: none;
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+body {
+  padding: 20px;
+  line-height: 30px;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+pre {
+  font-size: 12px;
+  text-align: left;
+  background: #eee;
+  line-height: 12px;
+  padding-top: 10px;
+  border-radius: 10px;
+  padding-right: 40px;
+}
+
+.notice {
+  color: #eb444e;
+  display: block;
+  font-size: 12px;
+}
+
+.list {
+  padding: 20px 0;
+}
+
+.border-radius1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #eb444e;
+}
+
+.border-radius2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background: #eb444e;
+}
+
+.ul_show {
+  width: 100%;
+}
+.ul_show li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.box-shadow1 {
+  width: 80px;
+  height: 40px;
+  background: #eeeeee;
+  box-shadow: 4px 2px 6px #333333;
+  margin: 20px auto;
+}
+
+.box-shadow2 {
+  width: 80px;
+  height: 40px;
+  background: #eeeeee;
+  box-shadow: 4px 2px 6px #333333 inset;
+  margin: 20px auto;
+}
+
+.box-shadow3 {
+  width: 80px;
+  height: 40px;
+  background: #eeeeee;
+  box-shadow: 4px 2px 6px #f00, -4px -2px 6px #000, 0px 0px 12px 5px #33CC00 inset;
+  margin: 20px auto;
+}
+
+.lan {
+  padding-top: 20px;
+}
+.lan em, .lan img {
+  display: inline-block;
+  vertical-align: top;
+}
+.lan pre {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+}
+.lan p {
+  margin: 10px 0;
+}
+
+.border-image {
+  width: 200px;
+  height: 160px;
+  background: #eeeeee;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 30px;
+  border: 70px solid #ddd;
+  margin-top: 20px;
+}
+
+.border-image1 {
+  border-image: url("../img/border-img2.jpg") 70 repeat;
+}
+
+.border-image2 {
+  border-image: url("../img/border-img2.jpg") 70 round;
+}
+
+.border-image3 {
+  border-image: url("../img/border-img2.jpg") 70 stretch;
+}
+
+.gradient {
+  width: 200px;
+  height: 140px;
+  display: inline-block;
+  text-align: center;
+  line-height: 200px;
+  margin-right: 40px;
+  color: #fff;
+}
+
+.gradient1 {
+  background-image: linear-gradient(to bottom, red, blue);
+}
+
+.gradient2 {
+  background-image: radial-gradient(at bottom, blue, yellow);
+}
+
+.gradient3 {
+  background-image: linear-gradient(to right, red, green, blue, yellow, orange);
+}
+
+.text-shadow {
+  font-size: 30px;
+  color: #333333;
+  text-shadow: 1px 2px 1px red;
+}
+
+.background-origin li {
+  width: 220px;
+  height: 100px;
+  border: 20px dashed #000;
+  padding: 20px;
+  font-weight: bold;
+  color: #000;
+  background: #ccc url(http://static.mukewang.com/static/img/logo_index.png) no-repeat;
+  background-origin: content-box;
+  position: relative;
+  float: left;
+  margin-right: 30px;
+  color: #ffffff;
+}
+.background-origin .background-origin1 {
+  background-origin: border-box;
+}
+.background-origin .background-origin2 {
+  background-origin: padding-box;
+}
+.background-origin .background-origin3 {
+  background-origin: content-box;
+}
+
+/*# sourceMappingURL=index.css.map */

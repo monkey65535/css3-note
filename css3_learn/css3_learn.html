@@ -284,6 +284,84 @@
 </div>
 <div class="list">
     <h4>12.CSS3选择器</h4>
+    <p> 在HTML中，通过各种各样的属性可以给元素增加很多附加的信息。例如，通过id属性可以将不同div元素进行区分。<br/>
+        在CSS2中引入了一些属性选择器，而CSS3在CSS2的基础上对属性选择器进行了扩展，新增了3个属性选择器，使得属性选择器有了通配符的概念，这三个属性选择器与CSS2的属性选择器共同构成了CSS功能强大的属性选择器。如下表所示：</p>
+    <img src="img/css3chose.jpg" alt=""/>
+    <div class="lan">
+        <p>实例展示：</p>
+        <p>HTML代码</p>
+        <textarea>
+            <a href="xxx.pdf">我链接的是PDF文件</a>
+            <a href="#" class="icon">我类名是icon</a>
+            <a href="#" title="我的title是more">我的title是more</a>
+        </textarea>
+        <p>css代码</p>
+        <pre>
+            a[<b class="red">class^</b>=icon]{
+              background: green;
+              color:#fff;
+            }
+            a[<b class="red">href$</b>=pdf]{
+              background: orange;
+              color: #fff;
+            }
+            a[<b class="red"> title*</b>=more]{
+              background: blue;
+              color: #fff;
+            }
+        </pre>
+    </div>
+    <p>效果展示</p>
+    <div class="chose">
+        <a href="xxx.pdf">我链接的是PDF文件</a>
+        <a href="#" class="icon">我类名是icon</a>
+        <a href="#" title="我的title是more">我的title是more</a>
+    </div>
+</div>
+<div class="list">
+    <h4>13.伪类结构选择器：root</h4>
+    <p>
+        <b class="red">:root</b>选择器
+        从字面上我们就可以很清楚的理解是根选择器，他的意思就是匹配元素E所在文档的根元素。在HTML文档中，根元素始终是html标签。<br/>
+        例如：：root{background:blue}<br/>
+        与html{background:blue}的效果是相同的。
+    </p>
+</div>
+<div class="list">
+    <h4>14.结构性伪类选择器：not</h4>
+    <p>
+        <b class="red">:not</b>选择器称为否定选择器，和jQuery中的:not选择器一模一样，可以选择除某个元素之外的所有元素。就拿form元素来说，比如说你想给表单中除submit按钮之外的input元素添加红色边框，CSS代码可以写成：
+    </p>
+    <div class="lan">
+        <pre>
+            form {
+              width: 200px;
+              margin: 20px auto;
+            }
+            div {
+              margin-bottom: 20px;
+            }
+            input:not([type="submit"]){
+              border:1px solid red;
+            }
+        </pre>
+        <h5>相关html代码</h5>
+        <textarea>
+            <form action="#">
+                <div>
+                    <label for="name">Text Input:</label>
+                    <input type="text" name="name" id="name" placeholder="John Smith" />
+                </div>
+                <div>
+                    <label for="name">Password Input:</label>
+                    <input type="text" name="name" id="name" placeholder="John Smith" />
+                </div>
+                <div>
+                    <input type="submit" value="Submit" />
+                </div>
+            </form>
+        </textarea>
+    </div>
 </div>
 </body>
 </html>

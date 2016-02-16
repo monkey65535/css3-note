@@ -83,6 +83,16 @@ pre{
   p{
     margin: 10px 0;
   }
+  textarea{
+    width: 100%;
+    overflow-y: visible;
+    min-height: 340px;
+    border: none;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+    background: #eeeeee;
+  }
 }
 
 .border-image{
@@ -298,5 +308,20 @@ pre{
       -ms-transform:rotate(10deg);
       transform:rotate(10deg);
     }
+  }
+}
+
+.chose{
+  a{
+    color: #ffffff;
+  }
+  a[class^=icon]{
+    background: forestgreen;
+  }
+  a[href$=pdf]{
+    background: orange;
+  }
+  a[title*=more]{
+    background: dodgerblue;
   }
 }

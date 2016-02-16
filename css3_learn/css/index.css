@@ -198,6 +198,16 @@ pre {
 .lan p {
   margin: 10px 0;
 }
+.lan textarea {
+  width: 100%;
+  overflow-y: visible;
+  min-height: 340px;
+  border: none;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  background: #eeeeee;
+}
 
 .border-image {
   width: 200px;
@@ -414,6 +424,19 @@ pre {
   -o-transform: rotate(10deg);
   -ms-transform: rotate(10deg);
   transform: rotate(10deg);
+}
+
+.chose a {
+  color: #ffffff;
+}
+.chose a[class^=icon] {
+  background: forestgreen;
+}
+.chose a[href$=pdf] {
+  background: orange;
+}
+.chose a[title*=more] {
+  background: dodgerblue;
 }
 
 /*# sourceMappingURL=index.css.map */

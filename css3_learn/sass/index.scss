@@ -229,3 +229,74 @@ pre{
               url("../img/bg2.jpg") no-repeat 100px 0,
               url("../img/bg3.jpg") no-repeat 200px 0;
 }
+
+.ex{
+  width:560px;
+  height: 50px;
+  font:bold 0/50px Arial;
+  margin:40px auto 0;
+  background: #f65f57;
+  /*制作圆*/
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  /*制作导航立体风格*/
+  box-shadow:3px 3px 0px #b64b41;
+  li{
+    position:relative;
+    display:inline-block;
+    padding:0 16px;
+    font-size: 13px;
+    text-shadow:1px 2px 4px rgba(0,0,0,.5);
+    list-style: none outside none;
+    &:first-child{
+      margin-left: 22px;
+      &:before{
+        background: none;
+      }
+    }
+    &:last-child{
+      &:after{
+        background: none;
+      }
+    }
+    &:before,&:after{
+      content: "";
+      width: 1px;
+      height: 25px;
+      background: #333333;
+    }
+    &:before{
+      position: absolute;
+      top: 15px;
+      left: 0px;
+      z-index: 999;
+      background: linear-gradient(180deg,rgba(255,255,255,0),rgba(255,255,255,0.5),rgba(255,255,255,0));
+    }
+    &:after{
+      position: absolute;
+      top: 15px;
+      right: 0px;
+      z-index: 999;
+      background: linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,0.2),rgba(0,0,0,0));
+    }
+  }
+  a{
+    display: inline-block;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    text-shadow:2px 2px 2px #ab4a40;
+    color:#fff;
+    text-decoration: none;
+    &:hover{
+      -webkit-transform:rotate(10deg);
+      -moz-transform:rotate(10deg);
+      -o-transform:rotate(10deg);
+      -ms-transform:rotate(10deg);
+      transform:rotate(10deg);
+    }
+  }
+}

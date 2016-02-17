@@ -386,3 +386,52 @@ pre {
   }
 }
 
+.child_show {
+  width: 200px;
+  border: 1px solid #333333;
+  li {
+    &:nth-child(2n) {
+      background: #333333;
+      color: #ffffff;
+    }
+  }
+}
+
+.type_show_1 {
+  border: 1px solid #333333;
+  div {
+    background: greenyellow;
+  }
+  p {
+    background: cornflowerblue;
+    &:first-of-type {
+      background: orange;
+    }
+  }
+}
+.type_show_2{
+  border: 1px solid #333333;
+  p{
+    &:nth-of-type(2n){
+      background: orange;
+    }
+  }
+}
+.post{
+  border:1px solid #333333;
+  margin-top: 10px;
+  p:only-child{
+    background: #333;
+    color: #ffffff;
+  }
+}
+.only_show{
+  border:1px solid #333;
+  margin-top: 20px;
+  div{
+    &:only-of-type{
+      background: #333;
+      color: #ffffff;
+    }
+  }
+}

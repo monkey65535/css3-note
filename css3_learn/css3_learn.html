@@ -453,5 +453,266 @@
         <p id="tag">内容内容</p>
     </div>
 </div>
+<div class="last">
+    <h4>16.结构性选择伪类：first:child</h4>
+    <p>
+        <b class="red">:first-child</b>选择器表示的是  <b>选择父元素的第一个子元素的元素</b>。简单点理解就是选择元素中的第一个子元素，记住是 <b>子元素</b>，而不是后代元素。
+    </p>
+</div>
+<div class="lsat">
+    <h4>17.结构性伪类选择器：last-child</h4>
+    <p>
+        <b class="red">:first-child</b>选择器表示的是  <b>选择父元素的最后一个子元素的元素</b>。简单点理解就是选择元素中的最后一个子元素，记住是 <b>子元素</b>，而不是后代元素。
+    </p>
+</div>
+<div class="last">
+    <h4>18.结构性伪类选择器：nth-child(n)</h4>
+    <p>
+        <b class="red">：nth-child(n)</b>”选择器用来定位 <b>某个父元素的一个或多个特定的子元素</b>。其中“n”是其参数，而且可以是整数值(1,2,3,4)，也可以是表达式(2n+1、-n+5)和关键词(odd、even)，但参数n的起始值始终是1，而不是0。也就是说，参数n的值为0时，选择器将选择不到任何匹配的元素。
+    </p>
+    <div class="lan">
+        html代码：
+        <textarea name="" id="" cols="30" rows="10">
+            <ul>
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+                <li>item4</li>
+                <li>item5</li>
+                <li>item6</li>
+                <li>item7</li>
+                <li>item8</li>
+                <li>item9</li>
+                <li>item10</li>
+            </ul>​
+        </textarea>
+        CSS代码：
+        <pre>
+            ul li:nth-child(2n){
+               background: #333333;
+               color: #ffffff;
+            }
+        </pre>
+    </div>
+    <ul class="child_show">
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+        <li>item5</li>
+        <li>item6</li>
+        <li>item7</li>
+        <li>item8</li>
+        <li>item9</li>
+        <li>item10</li>
+    </ul>
+</div>
+<div class="list">
+    <h4>19.结构性伪类选择器：nth-last-child(n)</h4>
+    <p>
+        <b class="red">:nth-last-child(n)</b>选择器和前面的“:nth-child(n)”选择器非常的相似，只是这里多了一个“last”，所起的作用和“:nth-child(n)”选择器有所区别，从某父元素的最后一个子元素开始计算，来选择特定的元素。
+    </p>
+</div>
+<div class="last">
+    <h4>20.first-of-type选择器</h4>
+    <p>
+        <b class="red">.first-of-type</b>选择器类似于“:first-child”选择器，不同之处就是 <b>指定了元素的类型</b>,其主要用来定位一个父元素下的某个类型的第一个子元素。
+    </p>
+    <p>
+        示例演示：<br/>
+        通过“:first-of-type”选择器，定位div容器中的第一个p元素（p不一定是容器中的第一个子元素），并设置其背景色为橙色。
+    </p>
+    <div class="lan">
+        HTML:
+        <textarea name="" id="" cols="30" rows="10">
+            <div class="wrapper">
+                <div>我是一个块元素，我是.wrapper的第一个子元素</div>
+                <p>我是一个段落元素，我是不是.wrapper的第一个子元素，但是他的第一个段落元素</p>
+                <p>我是一个段落元素</p>
+                <div>我是一个块元素</div>
+            </div>
+        </textarea>
+        CSS:
+        <pre>
+            .wrapper {
+              width: 500px;
+              margin: 20px auto;
+              padding: 10px;
+              border: 1px solid #ccc;
+              color: #fff;
+            }
+            .wrapper > div {
+              background: green;
+            }
+            .wrapper > p {
+              background: blue;
+            }
+            /*我要改变第一个段落的背景为橙色*/
+            .wrapper > p:first-of-type {
+              background: orange;
+            }
+        </pre>
+    </div>
+    效果展示：
+    <div class="type_show_1">
+        <div>我是一个块元素，我是.wrapper的第一个子元素</div>
+        <p>我是一个段落元素，我是不是.wrapper的第一个子元素，但是他的第一个段落元素</p>
+        <p>我是一个段落元素</p>
+        <div>我是一个块元素</div>
+    </div>
+</div>
+<div class="list">
+    <h4>21.nth-of-type(n)选择器</h4>
+    <p>
+        <b class="red">:nth-of-type(n)</b>选择器和“:nth-child(n)”选择器非常类似，不同的是它只计算父元素中指定的某种类型的子元素。当某个元素中的子元素不单单是同一种类型的子元素时，使用“:nth-of-type(n)”选择器来定位于父元素中某种类型的子元素是非常方便和有用的。在“:nth-of-type(n)”选择器中的“n”和“:nth-child(n)”选择器中的“n”参数也一样，可以是 <b>具体的整数</b>，也可以是 <b>表达式</b>，还可以是 <b>关键词</b>。
+    </p>
+    <div class="lan">
+        实例：<br/>
+        通过“:nth-of-type(2n)”选择器，将容器“div.wrapper”中偶数段数的背景设置为橙色。<br/>
+        HTML:
+        <textarea name="" id="" cols="30" rows="10">
+            <div class="wrapper">
+                <div>我是一个Div元素</div>
+                <p>我是一个段落元素</p>
+                <div>我是一个Div元素</div>
+                <p>我是一个段落</p>
+                <div>我是一个Div元素</div>
+                <p>我是一个段落</p>
+                <div>我是一个Div元素</div>
+                <p>我是一个段落</p>
+                <div>我是一个Div元素</div>
+                <p>我是一个段落</p>
+                <div>我是一个Div元素</div>
+                <p>我是一个段落</p>
+                <div>我是一个Div元素</div>
+                <p>我是一个段落</p>
+                <div>我是一个Div元素</div>
+                <p>我是一个段落</p>
+            </div>
+        </textarea>
+        CSS:
+        <pre>
+            .wrapper > p:nth-of-type(2n){
+              background: orange;
+            }
+        </pre>
+        演示效果：
+        <div class="type_show_2">
+            <div>我是一个Div元素</div>
+            <p>我是一个段落元素</p>
+            <div>我是一个Div元素</div>
+            <p>我是一个段落</p>
+            <div>我是一个Div元素</div>
+            <p>我是一个段落</p>
+            <div>我是一个Div元素</div>
+            <p>我是一个段落</p>
+            <div>我是一个Div元素</div>
+            <p>我是一个段落</p>
+            <div>我是一个Div元素</div>
+            <p>我是一个段落</p>
+            <div>我是一个Div元素</div>
+            <p>我是一个段落</p>
+            <div>我是一个Div元素</div>
+            <p>我是一个段落</p>
+        </div>
+    </div>
+</div>
+<div class="last">
+    <h4>22.last-of-type选择器</h4>
+    <p>
+        <b class="red">:last-of-tyle</b>选择器和“:first-of-type”选择器功能是一样的，不同的是他选择是父元素下的某个类型的 <b>最后一个子元素</b>。
+    </p>
+</div>
+<div class="last">
+    <h4>23.nth-last-of-type(n)选择器</h4>
+    <p>
+        <b class="red">:nth-last-of-type(n)</b>选择器和“:nth-of-type(n)”选择器是一样的，选择父元素中指定的某种子元素类型，但它的 <b>起始方向是从最后一个子元素开始</b>，而且它的使用方法类似于上节中介绍的“:nth-last-child(n)”选择器一样。
+    </p>
+</div>
+<div class="list">
+    <h4>24.only-child</h4>
+    <p>
+        <b class="red">:only-child</b>选择器选择的是父元素中只有一个子元素，而且只有唯一的一个子元素。也就是说，匹配的元素的父元素中仅有一个子元素，而且是一个 <b>唯一的子元素</b>。
+    </p>
+    <div class="lan">
+        演示案例：<br/>
+        HTML: <br/>
+        <textarea name="" id="" cols="30" rows="10">
+            <div class="post">
+                <p>我是一个段落</p>
+                <p>我是一个段落</p>
+                <p>我是一个段落</p>
+            </div>
+            <div class="post">
+                <p>我是这个容器仅有的一个段落</p>
+            </div>
+        </textarea>
+        CSS：<br/>
+        <pre>
+            .post p {
+              background: green;
+              color: #fff;
+              padding: 10px;
+            }
+            .post p:only-child {
+              background: orange;
+            }
+        </pre>
+        效果展示:
+        <div class="post">
+            <p>我是一个段落</p>
+            <p>我是一个段落</p>
+            <p>我是一个段落</p>
+        </div>
+        <div class="post">
+            <p>我是这个容器仅有的一个段落</p>
+        </div>
+    </div>
+</div>
+<div class="list">
+    <h4>25.only-of-type选择器</h4>
+    <p>
+        <b class="red">:only-of-type</b>选择器用来选择一个元素是它的父元素的 <b>唯一一个相同类型的子元素</b>。这样说或许不太好理解，换一种说法。“:only-of-type”是表示一个元素他有很多个子元素，而其中只有一种类型的子元素是唯一的，使用“:only-of-type”选择器就可以选中这个元素中的唯一一个类型子元素。
+    </p>
+    <div class="lan">
+        示例演示: <br/>
+        HTML： <br/>
+        <textarea name="" id="" cols="30" rows="10">
+            <div class="wrapper">
+                <p>我是一个段落</p>
+                <p>我是一个段落</p>
+                <p>我是一个段落</p>
+                <div>我是一个Div元素</div>
+            </div>
+            <div class="wrapper">
+                <div>我是一个Div</div>
+                <ul>
+                    <li>我是一个列表项</li>
+                </ul>
+                <p>我是一个段落</p>
+            </div>
+        </textarea>
+        CSS: <br/>
+        <pre>
+            .wrapper > div:only-of-type {
+                  background: orange;
+                }
+        </pre>
+        效果展示: <br/>
+        <div class="only_show">
+            <p>我是一个段落</p>
+            <p>我是一个段落</p>
+            <p>我是一个段落</p>
+            <div>我是一个Div元素</div>
+        </div>
+        <div class="only_show">
+            <div>我是一个Div</div>
+            <ul>
+                <li>我是一个列表项</li>
+            </ul>
+            <p>我是一个段落</p>
+        </div>
+    </div>
+</div>
 </body>
 </html>

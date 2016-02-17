@@ -201,7 +201,7 @@ pre {
 .lan textarea {
   width: 100%;
   overflow-y: visible;
-  min-height: 340px;
+  min-height: 160px;
   border: none;
   font-size: 14px;
   line-height: 24px;
@@ -346,8 +346,8 @@ pre {
   height: 140px;
   border: 1px solid #333333;
   background-image: url("../img/bg1.jpg"), url("../img/bg2.jpg"), url("../img/bg3.jpg");
-  background-position: left top ,100px 0,200px 0;
-  background-repeat: no-repeat,no-repeat,no-repeat;
+  background-position: left top, 100px 0, 200px 0;
+  background-repeat: no-repeat, no-repeat, no-repeat;
 }
 
 .bg-demo2 {
@@ -437,6 +437,34 @@ pre {
 }
 .chose a[title*=more] {
   background: dodgerblue;
+}
+
+.chose_not div {
+  padding: 10px 20px;
+  min-height: 50px;
+}
+.chose_not div:not([class="footer"]) {
+  background: orange;
+}
+
+.empty_show p {
+  min-height: 30px;
+}
+.empty_show p:empty {
+  border: 1px solid green;
+}
+
+.target_show a {
+  color: blue;
+}
+
+#tag {
+  background: #eeeeee;
+  color: #333333;
+}
+#tag:target {
+  background: #333;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=index.css.map */

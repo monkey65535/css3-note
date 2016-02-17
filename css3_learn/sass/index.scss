@@ -1,13 +1,16 @@
 @import "reset";
-body{
+
+body {
   padding: 20px;
   line-height: 30px;
 }
-span{
+
+span {
   display: inline-block;
   vertical-align: middle;
 }
-pre{
+
+pre {
   font-size: 12px;
   text-align: left;
   background: #eee;
@@ -16,77 +19,87 @@ pre{
   border-radius: 10px;
   padding-right: 40px;
 }
-.notice{
+
+.notice {
   color: #eb444e;
   display: block;
   font-size: 12px;
 }
-.red{
+
+.red {
   color: #eb444e;
 }
-.list{
+
+.list {
   padding: 20px 0;
 }
-.border-radius1{
+
+.border-radius1 {
   width: 40px;
   height: 40px;
   border-radius: 10px;
   background: #eb444e;
 }
-.border-radius2{
+
+.border-radius2 {
   width: 40px;
   height: 40px;
   border-radius: 40px;
   background: #eb444e;
 }
-.ul_show{
+
+.ul_show {
   width: 100%;
-  li{
+  li {
     display: inline-block;
     vertical-align: middle;
     margin-right: 20px;
     text-align: center;
   }
 }
-.box-shadow1{
+
+.box-shadow1 {
   width: 80px;
   height: 40px;
   background: #eeeeee;
-  box-shadow:4px 2px 6px #333333;
+  box-shadow: 4px 2px 6px #333333;
   margin: 20px auto;
 }
-.box-shadow2{
+
+.box-shadow2 {
   width: 80px;
   height: 40px;
   background: #eeeeee;
-  box-shadow:4px 2px 6px #333333 inset;
+  box-shadow: 4px 2px 6px #333333 inset;
   margin: 20px auto;
 }
-.box-shadow3{
+
+.box-shadow3 {
   width: 80px;
   height: 40px;
   background: #eeeeee;
-  box-shadow:4px 2px 6px #f00, -4px -2px 6px #000, 0px 0px 12px 5px #33CC00 inset;
+  box-shadow: 4px 2px 6px #f00, -4px -2px 6px #000, 0px 0px 12px 5px #33CC00 inset;
   margin: 20px auto;
 }
-.lan{
+
+.lan {
   padding-top: 20px;
-  em,img{
+  em, img {
     display: inline-block;
     vertical-align: top;
   }
-  pre{
+  pre {
     font-size: 14px;
     line-height: 24px;
     font-weight: bold;
   }
-  p{
+  p {
     margin: 10px 0;
   }
-  textarea{
+  textarea {
     width: 100%;
     overflow-y: visible;
-    min-height: 340px;
+    min-height: 160px;
     border: none;
     font-size: 14px;
     line-height: 24px;
@@ -95,26 +108,30 @@ pre{
   }
 }
 
-.border-image{
+.border-image {
   width: 200px;
   height: 160px;
   background: #eeeeee;
   display: inline-block;
   vertical-align: middle;
   margin-right: 30px;
-  border:70px solid #ddd;
+  border: 70px solid #ddd;
   margin-top: 20px;
 }
-.border-image1{
+
+.border-image1 {
   border-image: url("../img/border-img2.jpg") 70 repeat;
 }
-.border-image2{
+
+.border-image2 {
   border-image: url("../img/border-img2.jpg") 70 round;
 }
-.border-image3{
+
+.border-image3 {
   border-image: url("../img/border-img2.jpg") 70 stretch;
 }
-.gradient{
+
+.gradient {
   width: 200px;
   height: 140px;
   display: inline-block;
@@ -123,29 +140,34 @@ pre{
   margin-right: 40px;
   color: #fff;
 }
-.gradient1{
- background-image: linear-gradient(to bottom,red,blue);
+
+.gradient1 {
+  background-image: linear-gradient(to bottom, red, blue);
 }
-.gradient2{
-  background-image: radial-gradient(at bottom,blue,yellow);
+
+.gradient2 {
+  background-image: radial-gradient(at bottom, blue, yellow);
 }
-.gradient3{
-  background-image: linear-gradient(to right,red,green,blue,yellow,orange);
+
+.gradient3 {
+  background-image: linear-gradient(to right, red, green, blue, yellow, orange);
 }
-.text-shadow{
+
+.text-shadow {
   font-size: 30px;
   color: #333333;
   text-shadow: 1px 2px 1px red;
 }
-.background-origin{
-  li{
-    width:220px;
+
+.background-origin {
+  li {
+    width: 220px;
     height: 100px;
-    border:20px dashed #000;
-    padding:20px;
-    font-weight:bold;
-    color:#000;
-    background:#ccc url(http://static.mukewang.com/static/img/logo_index.png) no-repeat;
+    border: 20px dashed #000;
+    padding: 20px;
+    font-weight: bold;
+    color: #000;
+    background: #ccc url(http://static.mukewang.com/static/img/logo_index.png) no-repeat;
     background-origin: content-box;
     float: left;
     margin-right: 30px;
@@ -153,25 +175,26 @@ pre{
     text-align: center;
     line-height: 100px;
   }
-  .background-origin1{
+  .background-origin1 {
     background-origin: border-box;
   }
-  .background-origin2{
+  .background-origin2 {
     background-origin: padding-box;
   }
-  .background-origin3{
+  .background-origin3 {
     background-origin: content-box;
   }
 }
-.clip{
-  li{
-    width:220px;
+
+.clip {
+  li {
+    width: 220px;
     height: 100px;
-    border:20px dashed #000;
-    padding:20px;
-    font-weight:bold;
-    color:#000;
-    background:#ccc url(http://static.mukewang.com/static/img/logo_index.png) no-repeat;
+    border: 20px dashed #000;
+    padding: 20px;
+    font-weight: bold;
+    color: #000;
+    background: #ccc url(http://static.mukewang.com/static/img/logo_index.png) no-repeat;
     background-origin: border-box;
     background-clip: padding-box;
     float: left;
@@ -180,148 +203,186 @@ pre{
     text-align: center;
     line-height: 100px;
   }
-  .clip1{
+  .clip1 {
     background-clip: border-box;
   }
-  .clip2{
+  .clip2 {
     background-clip: padding-box;
   }
-  .clip3{
+  .clip3 {
     background-clip: content-box;
   }
-  .clip4{
+  .clip4 {
     background-clip: no-clip;
   }
 }
-.bg-size{
-  li{
+
+.bg-size {
+  li {
     background: url(http://static.mukewang.com/static/img/logo_index.png) no-repeat;
     width: 300px;
     height: 140px;
     border: 1px solid #999;
-    background-size:cover;
+    background-size: cover;
     float: left;
     margin-right: 40px;
     color: #ffffff;
     text-shadow: 2px 2px 2px #eee;
   }
-  .bg-size1{
-    background-size:auto ;
+  .bg-size1 {
+    background-size: auto;
   }
-  .bg-size2{
-    background-size:200px 50px ;
+  .bg-size2 {
+    background-size: 200px 50px;
   }
-  .bg-size3{
-    background-size:40% 20% ;
+  .bg-size3 {
+    background-size: 40% 20%;
   }
-  .bg-size4{
-    background-size:cover ;
+  .bg-size4 {
+    background-size: cover;
   }
-  .bg-size5{
-    background-size:contain ;
+  .bg-size5 {
+    background-size: contain;
   }
 }
-.bg-demo{
+
+.bg-demo {
   width: 300px;
   height: 140px;
   border: 1px solid #333333;
   background-image: url("../img/bg1.jpg"),
-                    url("../img/bg2.jpg"),
-                    url("../img/bg3.jpg");
-  background-position: left top ,100px 0,200px 0;
-  background-repeat: no-repeat,no-repeat,no-repeat;
-}
-.bg-demo2{
-  width: 300px;
-  height: 140px;
-  border:1px solid #333;
-  background: url("../img/bg1.jpg") no-repeat left top,
-              url("../img/bg2.jpg") no-repeat 100px 0,
-              url("../img/bg3.jpg") no-repeat 200px 0;
+  url("../img/bg2.jpg"),
+  url("../img/bg3.jpg");
+  background-position: left top, 100px 0, 200px 0;
+  background-repeat: no-repeat, no-repeat, no-repeat;
 }
 
-.ex{
-  width:560px;
+.bg-demo2 {
+  width: 300px;
+  height: 140px;
+  border: 1px solid #333;
+  background: url("../img/bg1.jpg") no-repeat left top,
+  url("../img/bg2.jpg") no-repeat 100px 0,
+  url("../img/bg3.jpg") no-repeat 200px 0;
+}
+
+.ex {
+  width: 560px;
   height: 50px;
-  font:bold 0/50px Arial;
-  margin:40px auto 0;
+  font: bold 0/50px Arial;
+  margin: 40px auto 0;
   background: #f65f57;
   /*制作圆*/
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
   /*制作导航立体风格*/
-  box-shadow:3px 3px 0px #b64b41;
-  li{
-    position:relative;
-    display:inline-block;
-    padding:0 16px;
+  box-shadow: 3px 3px 0px #b64b41;
+  li {
+    position: relative;
+    display: inline-block;
+    padding: 0 16px;
     font-size: 13px;
-    text-shadow:1px 2px 4px rgba(0,0,0,.5);
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
     list-style: none outside none;
-    &:first-child{
+    &:first-child {
       margin-left: 22px;
-      &:before{
+      &:before {
         background: none;
       }
     }
-    &:last-child{
-      &:after{
+    &:last-child {
+      &:after {
         background: none;
       }
     }
-    &:before,&:after{
+    &:before, &:after {
       content: "";
       width: 1px;
       height: 25px;
       background: #333333;
     }
-    &:before{
+    &:before {
       position: absolute;
       top: 15px;
       left: 0px;
       z-index: 999;
-      background: linear-gradient(180deg,rgba(255,255,255,0),rgba(255,255,255,0.5),rgba(255,255,255,0));
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
     }
-    &:after{
+    &:after {
       position: absolute;
       top: 15px;
       right: 0px;
       z-index: 999;
-      background: linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,0.2),rgba(0,0,0,0));
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
     }
   }
-  a{
+  a {
     display: inline-block;
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     -ms-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
-    text-shadow:2px 2px 2px #ab4a40;
-    color:#fff;
+    text-shadow: 2px 2px 2px #ab4a40;
+    color: #fff;
     text-decoration: none;
-    &:hover{
-      -webkit-transform:rotate(10deg);
-      -moz-transform:rotate(10deg);
-      -o-transform:rotate(10deg);
-      -ms-transform:rotate(10deg);
-      transform:rotate(10deg);
+    &:hover {
+      -webkit-transform: rotate(10deg);
+      -moz-transform: rotate(10deg);
+      -o-transform: rotate(10deg);
+      -ms-transform: rotate(10deg);
+      transform: rotate(10deg);
     }
   }
 }
 
-.chose{
-  a{
+.chose {
+  a {
     color: #ffffff;
   }
-  a[class^=icon]{
+  a[class^=icon] {
     background: forestgreen;
   }
-  a[href$=pdf]{
+  a[href$=pdf] {
     background: orange;
   }
-  a[title*=more]{
+  a[title*=more] {
     background: dodgerblue;
   }
 }
+
+.chose_not {
+  div {
+    padding: 10px 20px;
+    min-height: 50px;
+  }
+  div:not([class="footer"]) {
+    background: orange;
+  }
+}
+
+.empty_show {
+  p {
+    min-height: 30px;
+  }
+  p:empty {
+    border: 1px solid green;
+  }
+}
+
+.target_show {
+  a {
+    color: blue;
+  }
+}
+
+#tag {
+  background: #eeeeee;
+  color: #333333;
+  &:target {
+    background: #333;
+    color: #ffffff;
+  }
+}
+

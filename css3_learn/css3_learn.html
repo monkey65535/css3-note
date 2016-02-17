@@ -10,6 +10,7 @@
 <body>
 <div class="list">
     <h4>1.圆角：border-radius：</h4>
+
     <p>圆角属性为border-radius，有4个值，对应的方向为左上，右上，右下，左下</p>
     <h5>展示</h5>
     <span class="border-radius1"></span>
@@ -18,6 +19,7 @@
 
 <div class="list">
     <h4>2.阴影 box-shadow</h4>
+
     <p>box-shadow:增加阴影，支持一个或者多个</p>
     <img src="img/box-shadow.jpg">
     <b class="notice">注意：inset 可以写在参数的第一个或最后一个，其它位置是无效的。</b>
@@ -26,6 +28,7 @@
     <ul class="ul_show clearfix">
         <li>
             <b>外阴影</b>
+
             <div class="box-shadow1"></div>
         <pre>
             .box_shadow{
@@ -35,6 +38,7 @@
         </li>
         <li>
             <b>内阴影</b>
+
             <div class="box-shadow2"></div>
         <pre>
             .box_shadow{
@@ -57,6 +61,7 @@
 
 <div class="list">
     <h4>3.为边框应用图片 border-image</h4>
+
     <div class="lan">
         <em>语法为：</em>
         <img src="img/border-img.jpg">
@@ -67,13 +72,14 @@
     </div>
     <div class="clearfix">
         <div class="border-image border-image1">平铺 repeat</div>
-        <div class="border-image border-image2">环绕  round</div>
+        <div class="border-image border-image2">环绕 round</div>
         <div class="border-image border-image3">拉伸 stretch</div>
     </div>
 </div>
 
 <div class="list">
     <h4>4.渐变色彩</h4>
+
     <div class="lan">
         <em>语法为：</em>
         <img src="img/gradient_1.jpg" alt="渐变语法"/>
@@ -97,10 +103,12 @@
 </div>
 <div class="list">
     <h4>5.text-overflow 与 word-wrap</h4>
+
     <div class="lan">
         <div>text-overflow用来设置是否使用一个省略标记（...）标示对象内文本的溢出。</div>
         <em>语法为：</em>
         <img src="img/text-overflow.jpg" alt="文本溢出"/>
+
         <div class="notice">
             但是text-overflow只是用来说明文字溢出时用什么方式显示，要实现溢出时产生省略号的效果，还须定义强制文本在一行内显示（white-space:nowrap）及溢出内容为隐藏（overflow:hidden），只有这样才能实现溢出文本显示省略号的效果，代码如下：
         </div>
@@ -114,6 +122,7 @@
         <div>word-wrap也可以用来设置文本行为，当前行超过指定容器的边界时是否断开转行。</div>
         <em>语法：</em>
         <img src="img/word-warp.jpg" alt=""/>
+
         <div class="notice">
             normal为浏览器默认值，break-word设置在长单词或 URL地址内部进行换行，此属性不常用，用浏览器默认值即可。
         </div>
@@ -121,6 +130,7 @@
 </div>
 <div class="list">
     <h4>6.嵌入字体@font-face</h4>
+
     <div class="lan">
         <div>@font-face能够加载服务器端的字体文件，让浏览器端可以显示用户电脑里没有安装的字体。</div>
         <em>语法：</em>
@@ -142,6 +152,7 @@
     </div>
     <div class="list">
         <h4>7.文本阴影</h4>
+
         <div class="lan">
             <em>语法：</em>
             <pre>
@@ -158,10 +169,12 @@
             Color：是指阴影的颜色，其可以使用rgba色。<br/>
 
         </p>
+
         <div class="lan">
             <em>展示：</em>
+
             <p class="text-shadow">
-              文本阴影text-shadow
+                文本阴影text-shadow
             </p>
             <pre>
                 text-shadow:1px 2px 1px red;
@@ -171,6 +184,7 @@
 </div>
 <div class="list">
     <h4>8.background-origin 设置元素背景图的其实位置</h4>
+
     <div class="lan">
         <p>设置背景元素图片的原始起始位置</p>
         <em>语法：</em>
@@ -189,6 +203,7 @@
 </div>
 <div class="list">
     <h4>9.background-clip 裁剪背景图片</h4>
+
     <div class="lan">
         <em>语法：</em>
         <pre>
@@ -205,17 +220,22 @@
 </div>
 <div class="list">
     <h4>10.background-size 背景图片大小</h4>
+
     <div class="lan">
         <em>语法：</em>
         <pre>
-            background-size:auto | <长度值> | <百分比> | cover | contain;
+            background-size:auto | <长度值> |
+            <百分比> | cover | contain;
         </pre>
         <p>
             说明：<br/>
             1、auto：默认值，不改变背景图片的原始高度和宽度；<br/>
-            2、<长度值>：成对出现如200px 50px，将背景图片宽高依次设置为前面两个值，当设置一个值时，将其作为图片宽度值来<b>等比缩放</b>；<br/>
-            3、<百分比>：0％~100％之间的任何值，将背景图片宽高依次设置为所在元素宽高乘以前面百分比得出的数值，当设置一个值时同上；<br/>      4、cover：顾名思义为覆盖，即将背景图片等比缩放以<b>填满整个容器</b>；<br/>
-            5、contain：容纳，即将背景图片等比缩放至某一边<b>紧贴容器边缘为止</b>。
+            2、
+            <长度值>：成对出现如200px 50px，将背景图片宽高依次设置为前面两个值，当设置一个值时，将其作为图片宽度值来<b>等比缩放</b>；<br/>
+                3、
+                <百分比>：0％~100％之间的任何值，将背景图片宽高依次设置为所在元素宽高乘以前面百分比得出的数值，当设置一个值时同上；<br/>
+                    4、cover：顾名思义为覆盖，即将背景图片等比缩放以<b>填满整个容器</b>；<br/>
+                    5、contain：容纳，即将背景图片等比缩放至某一边<b>紧贴容器边缘为止</b>。
         </p>
     </div>
     <ul class="bg-size clearfix">
@@ -228,7 +248,10 @@
 </div>
 <div class="list">
     <h4>11.多重背景</h4>
-    <p>多重背景，也就是CSS2里background的属性外加origin、clip和size组成的新background的多次叠加，缩写时为用逗号隔开的每组值；用分解写法时，如果有多个背景图片，而其他属性只有一个（例如background-repeat只有一个），表明所有背景图片应用该属性值。</p>
+
+    <p>
+        多重背景，也就是CSS2里background的属性外加origin、clip和size组成的新background的多次叠加，缩写时为用逗号隔开的每组值；用分解写法时，如果有多个背景图片，而其他属性只有一个（例如background-repeat只有一个），表明所有背景图片应用该属性值。</p>
+
     <div class="lan">
         <p>语法缩写如下</p>
         <pre>
@@ -248,12 +271,14 @@
             background-color : color;
         </pre>
         <b>注意：</b>
+
         <p>
             1.用逗号隔开每组 background 的缩写值；<br/>
             2.如果有 size 值，需要紧跟 position 并且用 "/" 隔开；<br/>
             3.如果有多个背景图片，而其他属性只有一个（例如 background-repeat 只有一个），表明所有背景图片应用该属性值。<br/>
             4.<b class="red"> background-color </b> 只能设置一个。
         </p>
+
         <div class="bg-demo"></div>
         <pre>
             background-image: url("../img/bg1.jpg"),
@@ -272,6 +297,7 @@
     </div>
 </div>
 <h4>练习：css3导航条</h4>
+
 <div class="ex">
     <ul class="nav">
         <li><a href="">Home</a></li>
@@ -284,17 +310,22 @@
 </div>
 <div class="list">
     <h4>12.CSS3选择器</h4>
+
     <p> 在HTML中，通过各种各样的属性可以给元素增加很多附加的信息。例如，通过id属性可以将不同div元素进行区分。<br/>
-        在CSS2中引入了一些属性选择器，而CSS3在CSS2的基础上对属性选择器进行了扩展，新增了3个属性选择器，使得属性选择器有了通配符的概念，这三个属性选择器与CSS2的属性选择器共同构成了CSS功能强大的属性选择器。如下表所示：</p>
+        在CSS2中引入了一些属性选择器，而CSS3在CSS2的基础上对属性选择器进行了扩展，新增了3个属性选择器，使得属性选择器有了通配符的概念，这三个属性选择器与CSS2的属性选择器共同构成了CSS功能强大的属性选择器。如下表所示：
+    </p>
     <img src="img/css3chose.jpg" alt=""/>
+
     <div class="lan">
         <p>实例展示：</p>
+
         <p>HTML代码</p>
         <textarea>
             <a href="xxx.pdf">我链接的是PDF文件</a>
             <a href="#" class="icon">我类名是icon</a>
             <a href="#" title="我的title是more">我的title是more</a>
         </textarea>
+
         <p>css代码</p>
         <pre>
             a[<b class="red">class^</b>=icon]{
@@ -312,6 +343,7 @@
         </pre>
     </div>
     <p>效果展示</p>
+
     <div class="chose">
         <a href="xxx.pdf">我链接的是PDF文件</a>
         <a href="#" class="icon">我类名是icon</a>
@@ -320,6 +352,7 @@
 </div>
 <div class="list">
     <h4>13.伪类结构选择器：root</h4>
+
     <p>
         <b class="red">:root</b>选择器
         从字面上我们就可以很清楚的理解是根选择器，他的意思就是匹配元素E所在文档的根元素。在HTML文档中，根元素始终是html标签。<br/>
@@ -329,38 +362,95 @@
 </div>
 <div class="list">
     <h4>14.结构性伪类选择器：not</h4>
+
     <p>
         <b class="red">:not</b>选择器称为否定选择器，和jQuery中的:not选择器一模一样，可以选择除某个元素之外的所有元素。就拿form元素来说，比如说你想给表单中除submit按钮之外的input元素添加红色边框，CSS代码可以写成：
     </p>
+
     <div class="lan">
         <pre>
-            form {
-              width: 200px;
-              margin: 20px auto;
+            div{
+              padding: 10px 20px;
+              min-height: 50px;
             }
-            div {
-              margin-bottom: 20px;
-            }
-            input:not([type="submit"]){
-              border:1px solid red;
+            div:not([id="footer"]){
+              background: orange;
             }
         </pre>
         <h5>相关html代码</h5>
         <textarea>
             <form action="#">
-                <div>
-                    <label for="name">Text Input:</label>
-                    <input type="text" name="name" id="name" placeholder="John Smith" />
-                </div>
-                <div>
-                    <label for="name">Password Input:</label>
-                    <input type="text" name="name" id="name" placeholder="John Smith" />
-                </div>
-                <div>
-                    <input type="submit" value="Submit" />
-                </div>
-            </form>
+                <div id="header">页头</div>
+                <div id="page">页体</div>
+                <div id="footer">页脚</div>
         </textarea>
+    </div>
+    <div class="chose_not">
+        <div class="header">页头</div>
+        <div class="page">页体</div>
+        <div class="footer">页脚</div>
+    </div>
+</div>
+<div class="list">
+    <h4>14.结构性伪类选择器：empty</h4>
+
+    <p>
+        <b class="red">:empty</b>选择器表示的就是空。用来选择没有任何内容的元素，这里没有内容指的是一点内容都没有，<b>哪怕是一个空格</b>。
+    </p>
+    <h5>相关代码：</h5>
+    html：
+    <div class="lan">
+        <textarea name="" id="" cols="30" rows="10">
+            <p>我是一个段落</p>
+            <p> <!-- 我这里有一个空格 --></p>
+            <p></p>​<!--我这里没有任何内容-->
+        </textarea>
+        css代码：
+        <pre>
+            p{
+             min-height: 30px;
+            }
+            p:empty {
+               border: 1px solid green;
+            }​
+        </pre>
+    </div>
+    <h5>效果展示：</h5>
+    <div class="empty_show">
+        <p>我是一个段落</p>
+        <p>  </p>
+        <p></p>​
+    </div>
+</div>
+<div class="list">
+    <h4>15.结构性伪类选择器：target</h4>
+    <p>
+        <b class="red">:target</b>选择器为目标选择器，用来匹配文档（页面）的 <b>url的某个标识符的目标元素</b>
+    </p>
+    <div class="lan">
+        相关代码：<br/>
+        html代码：<br/>
+        <textarea name="" id="" cols="30" rows="10">
+            <h2><a href="#brand">Brand</a></h2>
+            <div class="menuSection" id="brand">
+                content for Brand
+            </div>
+        </textarea>
+        css代码：<br/>
+        <pre>
+            .menuSection{
+              background:#eee;
+            }
+            :target{/*这里的:target就是指id="brand"的div对象*/
+              background:#333;
+              color:#fff;
+            }
+        </pre>
+    </div>
+    效果显示：
+    <div class="target_show">
+        <a href="#tag">点击按钮改变颜色</a>
+        <p id="tag">内容内容</p>
     </div>
 </div>
 </body>

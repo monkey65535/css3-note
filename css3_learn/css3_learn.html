@@ -714,5 +714,233 @@
         </div>
     </div>
 </div>
+<div class="list">
+    <h4>26.:enabled选择器和:disabled选择器</h4>
+    <p>
+        在Web的表单中，有些表单元素有可用 <b class="red">:enabled</b> 和不可用 <b class="red">:disabled</b> 状态，比如输入框，密码框，复选框等。在默认情况之下，这些表单元素都处在 <b>可用状态</b> 。那么我们可以通过伪选择器“:enabled”对这些表单元素设置样式。如果这些表单处于 <b>不可用状态</b> ，那么可以通过:disabled对这些表单元素设置样式。要正常使用“:disabled”选择器，需要在表单元素的HTML中设置“disabled”属性。
+    </p>
+    <div class="lan">
+        实例演示： <br/>
+        设置两个输入框的样式. <br/>
+        HTML:
+        <textarea name="" id="" cols="30" rows="10">
+            <form action="#">
+                <div>
+                    <label for="name">Text Input:</label>
+                    <input type="text" name="name" id="name" placeholder="可用输入框"  />
+                </div>
+                <div>
+                    <label for="name">Text Input:</label>
+                    <input type="text" name="name" id="name" placeholder="禁用输入框"  disabled="disabled" />
+                </div>
+            </form>
+        </textarea>
+        CSS: <br/>
+        <pre>
+            div{
+              margin: 20px;
+            }
+            input[type="text"]:enabled {
+              background: #ccc;
+              border: 2px solid red;
+            }
+        </pre>
+        效果展示:
+        <form action="#" class="able_show">
+            <div>
+                <label for="name">Text Input:</label>
+                <input type="text" name="name" id="name" placeholder="可用输入框"  />
+            </div>
+            <div>
+                <label for="name">Text Input:</label>
+                <input type="text" name="name" id="name" placeholder="禁用输入框"  disabled="disabled" />
+            </div>
+        </form>
+    </div>
+</div>
+<div class="list">
+    <h4>27. :checked选择器</h4>
+    <p>在表单元素中，单选按钮和复选按钮都具有 <b>选中和未选中状态</b>。（大家都知道，要覆写这两个按钮默认样式比较困难）。在CSS3中，我们可以通过状态选择器“:checked”配合其他标签实现自定义样式。而 <b class="red">:checked</b>表示的是选中状态。</p>
+    <div class="lan">
+        实例演示：<br/>
+        通过：checked状态来自定义选框效果。 <br/>
+        HTML：<br/>
+        <textarea name="" id="" cols="30" rows="10">
+            <form action="#">
+                <div class="check_show">
+                    <div class="box">
+                        <input type="checkbox" checked="checked" id="usename" /><span>√</span>
+                    </div>
+                    <lable for="usename">我是选中状态</lable>
+                </div>
+
+                <div class="check_show">
+                    <div class="box">
+                        <input type="checkbox"  id="usepwd" /><span>√</span>
+                    </div>
+                    <label for="usepwd">我是未选中状态</label>
+                </div>
+            </form>
+        </textarea>
+        CSS:
+        <pre>
+            form {
+              border: 1px solid #ccc;
+              padding: 20px;
+              width: 300px;
+              margin: 30px auto;
+            }
+
+            .wrapper {
+              margin-bottom: 10px;
+            }
+
+            .box {
+              display: inline-block;
+              width: 20px;
+              height: 20px;
+              margin-right: 10px;
+              position: relative;
+              border: 2px solid orange;
+              vertical-align: middle;
+            }
+
+            .box input {
+              opacity: 0;
+              position: absolute;
+              top:0;
+              left:0;
+            }
+
+            .box span {
+              position: absolute;
+              top: -10px;
+              right: 3px;
+              font-size: 30px;
+              font-weight: bold;
+              font-family: Arial;
+              -webkit-transform: rotate(30deg);
+              transform: rotate(30deg);
+              color: orange;
+            }
+
+            input[type="checkbox"] + span {
+              opacity: 0;
+            }
+
+            input[type="checkbox"]:checked + span {
+              opacity: 1;
+            }
+        </pre>
+        效果展示：
+        <form action="#" class="check_s">
+            <div class="check_show">
+                <div class="box">
+                    <input type="checkbox" checked="checked" id="usename" /><span></span>
+                </div>
+                <lable for="usename">我是选中状态</lable>
+            </div>
+
+            <div class="check_show">
+                <div class="box">
+                    <input type="checkbox"  id="usepwd" /><span></span>
+                </div>
+                <label for="usepwd">我是未选中状态</label>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="list">
+    <h4>28.::selection选择器</h4>
+    <p>
+        <b class="red">::selection</b> 伪元素是用来匹配 <b>突出显示的文本(用鼠标选择文本时的文本)</b>。浏览器默认情况下，用鼠标选择网页文本是以“深蓝的背景，白色的字体”显示的，效果如下图所示：
+        <img src="img/selection.jpg" alt="selection"/> <br/>
+        从上图中可以看出，用鼠标选中“专注IT、互联网技术”、“纯干货、学以致用”、“没错、这是免费的”这三行文本中，默认显示样式为：蓝色背景、白色文本。<br/>
+        有的时候设计要求,不使用上图那种浏览器默认的突出文本效果，需要一个与众不同的效果，此时“::selection”伪元素就非常的实用。<b>不过在Firefox浏览器还需要添加前缀。</b>
+    </p>
+    <div class="lan">
+        效果展示: <br/>
+        通过“::selection”选择器，将Web中选中的文本背景变成橙色，文本变成红色。<br/>
+        html:
+        <textarea name="" id="" cols="30" rows="10">
+            <p>“::selection”伪元素是用来匹配突出显示的文本。浏览器默认情况下，选择网站文本是深蓝的背景，白色的字体，</p>
+        </textarea>
+        CSS:
+        <pre>
+            ::-moz-selection {
+              background: orange;
+              color: red;
+            }
+            ::selection {
+              background: orange;
+              color: red;
+            }
+        </pre>
+        效果展示：
+        <p class="selection">
+            选中我试试看？
+        </p>
+    </div>
+</div>
+<div class="list">
+    <h4>29.:read-only选择器和:read-write选择器</h4>
+    <p>
+        <b class="red">:read-only</b>伪类选择器用来指定处于只读状态元素的样式。简单点理解就是，元素中设置了"<b>readonly='readonly'</b>"
+    </p>
+    <div class="lan">
+        实例演示：<br/>
+        通过“:read-only”选择器来设置地址文本框的样式。<br/>
+        HTML: <br/>
+        <textarea name="" id="" cols="30" rows="10">
+            <form action="#">
+                <div>
+                    <label for="name">姓名:</label>
+                    <input type="text" name="name" id="name" placeholder="大漠" />
+                </div>
+                <div>
+                    <label for="address">地址:</label>
+                    <input type="text" name="address" id="address" placeholder="中国上海" readonly="readonly" />
+                </div>
+            </form>
+        </textarea>
+        CSS: <br/>
+        <pre>
+            form {
+              width: 300px;
+              padding: 10px;
+              border: 1px solid #ccc;
+              margin: 50px auto;
+            }
+            form > div {
+              margin-bottom: 10px;
+            }
+
+            input[type="text"]{
+              border: 1px solid orange;
+              padding: 5px;
+              background: #fff;
+              border-radius: 5px;
+            }
+
+            input[type="text"]:-moz-read-only{
+              border-color: #ccc;
+            }
+            input[type="text"]:read-only{
+              border-color: #ccc;
+            }
+        </pre>
+        结果演示: <br/>
+        <form action="#" class="readonly">
+            <div>
+                <label for="name">姓名:</label>
+                <input type="text" name="name" id="name" placeholder="china" />
+            </div>
+            <div>
+                <label for="address">地址:</label>
+                <input type="text" name="address" id="address" placeholder="中国上海" readonly="readonly" />
+            </div>
+        </form>
+    </div>
+</div>
 </body>
 </html>

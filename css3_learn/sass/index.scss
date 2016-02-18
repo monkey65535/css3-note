@@ -519,5 +519,13 @@ pre {
     &:read-only{
       border-color: #cccccc;
     }
+    &:-moz-read-write{
+      border-color: #eb444e;
+      border-radius: 2px;
+    }
+    &:read-write{
+      border-color: #eb444e;
+      border-radius: 2px;
+    }
   }
 }

@@ -599,5 +599,13 @@ pre {
 .readonly input[type="text"]:read-only {
   border-color: #cccccc;
 }
+.readonly input[type="text"]:-moz-read-write {
+  border-color: #eb444e;
+  border-radius: 2px;
+}
+.readonly input[type="text"]:read-write {
+  border-color: #eb444e;
+  border-radius: 2px;
+}
 
 /*# sourceMappingURL=index.css.map */

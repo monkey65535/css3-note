@@ -889,13 +889,17 @@
     </p>
     <div class="lan">
         实例演示：<br/>
-        通过“:read-only”选择器来设置地址文本框的样式。<br/>
+        通过“:read-only”选择器来设置地址文本框的样式，通过read-write设置姓名文本框的样式<br/>
         HTML: <br/>
         <textarea name="" id="" cols="30" rows="10">
             <form action="#">
                 <div>
                     <label for="name">姓名:</label>
                     <input type="text" name="name" id="name" placeholder="大漠" />
+                </div>
+                <div>
+                    <label for="name">年龄:</label>
+                    <input type="text" name="age" id="age" placeholder="输入您的年龄" />
                 </div>
                 <div>
                     <label for="address">地址:</label>
@@ -936,10 +940,34 @@
                 <input type="text" name="name" id="name" placeholder="china" />
             </div>
             <div>
+                <label for="name">年龄:</label>
+                <input type="text" name="age" id="age" placeholder="输入您的年龄" />
+            </div>
+            <div>
                 <label for="address">地址:</label>
                 <input type="text" name="address" id="address" placeholder="中国上海" readonly="readonly" />
             </div>
         </form>
+    </div>
+</div>
+<div class="list">
+    <h4>30. ::before和::after</h4>
+    <p>
+        <b class="red">::before和::after</b>这两个主要用来给前面或者后面插入内容。这两个常和"content"配合使用，使用的场景最多的就是 <b>清除浮动</b>。
+    </p>
+    <div class="lan">
+        清除浮动代码实例：
+        <pre>
+            .clearfix::before,
+            .clearfix::after {
+                content: ".";
+                display: block;
+                height: 0;
+                visibility: hidden;
+            }
+            .clearfix:after {clear: both;}
+            .clearfix {zoom: 1;}
+        </pre>
     </div>
 </div>
 </body>

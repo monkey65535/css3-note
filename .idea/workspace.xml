@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbc4ebf7-7a7a-4fb2-9715-98a741b7ddde" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/selection.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3_learn/css3_learn.html" afterPath="$PROJECT_DIR$/css3_learn/css3_learn.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3_learn/css/index.css.map" afterPath="$PROJECT_DIR$/css3_learn/css/index.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3_learn/css/index.css" afterPath="$PROJECT_DIR$/css3_learn/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3_learn/sass/index.scss" afterPath="$PROJECT_DIR$/css3_learn/sass/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="css3-note.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +29,8 @@
       <file leaf-file-name="css3_learn.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css3_learn/css3_learn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3387978">
-              <caret line="885" column="39" selection-start-line="885" selection-start-column="39" selection-end-line="885" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.36885247">
+              <caret line="955" column="99" selection-start-line="955" selection-start-column="99" selection-end-line="955" selection-end-column="99" />
               <folding />
             </state>
           </provider>
@@ -41,18 +39,8 @@
       <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css3_learn/sass/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.9259257">
-              <caret line="506" column="14" selection-start-line="506" selection-start-column="14" selection-end-line="506" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css3_learn/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="603" column="0" selection-start-line="603" selection-start-column="0" selection-end-line="603" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.37037">
+              <caret line="525" column="6" selection-start-line="525" selection-start-column="6" selection-end-line="525" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -329,24 +317,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css3_learn/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="603" column="0" selection-start-line="603" selection-start-column="0" selection-end-line="603" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8258575">
+          <caret line="611" column="0" selection-start-line="611" selection-start-column="0" selection-end-line="611" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css3_learn/sass/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.9259257">
-          <caret line="506" column="14" selection-start-line="506" selection-start-column="14" selection-end-line="506" selection-end-column="14" />
+        <state vertical-scroll-proportion="-9.37037">
+          <caret line="525" column="6" selection-start-line="525" selection-start-column="6" selection-end-line="525" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css3_learn/css3_learn.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3387978">
-          <caret line="885" column="39" selection-start-line="885" selection-start-column="39" selection-end-line="885" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.36885247">
+          <caret line="955" column="99" selection-start-line="955" selection-start-column="99" selection-end-line="955" selection-end-column="99" />
           <folding />
         </state>
       </provider>

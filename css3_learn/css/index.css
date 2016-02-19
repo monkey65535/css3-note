@@ -637,4 +637,52 @@ pre {
   transform: skew(45deg);
 }
 
+.scale {
+  padding: 20px;
+  border: 1px solid orange;
+}
+.scale li {
+  width: 200px;
+  height: 100px;
+  background: orange;
+  float: left;
+  line-height: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+.scale li a {
+  display: block;
+  color: #ffffff;
+}
+.scale li:nth-of-type(1) a {
+  background: #eb444e;
+}
+.scale li:nth-of-type(1) a:hover {
+  -webkit-transform: scale(1.5, 1.5);
+  -moz-transform: scale(1.5, 1.5);
+  -ms-transform: scale(1.5, 1.5);
+  -o-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
+}
+.scale li:nth-of-type(2) a {
+  background: #02646e;
+}
+.scale li:nth-of-type(2) a:hover {
+  -webkit-transform: scaleX(1.5);
+  -moz-transform: scaleX(1.5);
+  -ms-transform: scaleX(1.5);
+  -o-transform: scaleX(1.5);
+  transform: scaleX(1.5);
+}
+.scale li:nth-of-type(3) a {
+  background: #67b374;
+}
+.scale li:nth-of-type(3) a:hover {
+  -webkit-transform: scaleY(1.5);
+  -moz-transform: scaleY(1.5);
+  -ms-transform: scaleY(1.5);
+  -o-transform: scaleY(1.5);
+  transform: scaleY(1.5);
+}
+
 /*# sourceMappingURL=index.css.map */

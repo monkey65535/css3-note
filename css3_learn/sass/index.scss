@@ -1,6 +1,8 @@
 @import "reset";
 
 body {
+  width: 1200px;
+  margin: 0 auto;
   padding: 20px;
   line-height: 30px;
 }
@@ -527,5 +529,30 @@ pre {
       border-color: #eb444e;
       border-radius: 2px;
     }
+  }
+}
+.rotate_show{
+  width: 200px;
+  height: 200px;
+  border: 1px dotted red;
+  margin: 100px;
+  p{
+    width: 200px;
+    height: 200px;
+    background: orange;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+}
+.skew{
+  width: 200px;
+  height: 200px;
+  border:1px solid orange;
+  margin: 100px;
+  div{
+    width: 200px;
+    height: 200px;
+    background: orange;
+    transform: skew(45deg);
   }
 }

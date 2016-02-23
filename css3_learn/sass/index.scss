@@ -13,8 +13,9 @@ span {
 }
 
 pre {
-  font-size: 12px;
+  font-size: 14px;
   text-align: left;
+  font-weight: bold;
   background: #eee;
   line-height: 12px;
   padding-top: 10px;
@@ -656,5 +657,75 @@ pre {
   div{
     transform-origin: left top;
     -webkit-transform-origin: left top;
+  }
+}
+
+.property{
+  width: 200px;
+  height: 200px;
+  background: #eb444e;
+  margin: 20px;
+  /*-webkit-transition-property:all;
+  transition-property: all;
+  -webkit-transition-duration:.5s;
+  transition-duration:.5s;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  -webkit-transition-delay: .18s;
+  transition-delay:.18s;*/
+  -webkit-transition: background,width .5s ease-in .1s;
+  -moz-transition: background,width .5s ease-in .1s;
+  -ms-transition: background,width .5s ease-in .1s;
+  -o-transition: background,width .5s ease-in .1s;
+  transition: background,width .5s ease-in .1s;
+  &:hover{
+    background: orange;
+    width: 300px;
+  }
+}
+.transition{
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
+  border: 2px dotted red;
+  div{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    -webkit-transition: all .28s ease-in .1s;
+    transition: all .28s ease-in .1s;
+    &:hover{
+      width: 300px;
+      height: 300px;
+      background-color: red;
+      color: #ffffff;
+    }
+  }
+}
+@keyframes chaneg{
+  0%{
+    width: 100px;
+    background: #eb444e;
+  }
+  40%{
+    width: 190px;
+    background: orange;
+  }
+  60%{
+    width: 220px;
+    background: yellow;
+  }
+  100%{
+    width: 100px;
+    background: red;
+  }
+}
+.keyframes{
+  width: 100px;
+  height: 100px;
+  background: #eb444e;
+  color: #ffffff;
+  &:hover{
+    animation: chaneg 3s ease .1s;
   }
 }

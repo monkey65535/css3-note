@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbc4ebf7-7a7a-4fb2-9715-98a741b7ddde" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/scale2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/scale3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/transform-orgin1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/transform-orgin2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/transition-property.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/translate1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/translate2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/translate3.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3_learn/css3_learn.html" afterPath="$PROJECT_DIR$/css3_learn/css3_learn.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3_learn/css/index.css.map" afterPath="$PROJECT_DIR$/css3_learn/css/index.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3_learn/css/index.css" afterPath="$PROJECT_DIR$/css3_learn/css/index.css" />
@@ -32,8 +36,8 @@
       <file leaf-file-name="css3_learn.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css3_learn/css3_learn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75989085">
-              <caret line="1072" column="22" selection-start-line="1072" selection-start-column="22" selection-end-line="1072" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.66984993">
+              <caret line="1236" column="13" selection-start-line="1236" selection-start-column="13" selection-end-line="1236" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -42,8 +46,8 @@
       <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css3_learn/sass/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.9444447">
-              <caret line="571" column="21" selection-start-line="571" selection-start-column="21" selection-end-line="571" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="638" column="7" selection-start-line="638" selection-start-column="1" selection-end-line="638" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -82,8 +86,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="418" />
-    <option name="y" value="56" />
+    <option name="x" value="402" />
+    <option name="y" value="142" />
     <option name="width" value="1314" />
     <option name="height" value="918" />
   </component>
@@ -110,7 +114,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -136,6 +139,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -146,6 +150,22 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FullScreen" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="105" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="112" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="111" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="905" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="108" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="115" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="115" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="908" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -209,10 +229,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="418" y="56" width="1314" height="918" extended-state="0" />
-    <editor active="true" />
+    <frame x="402" y="142" width="1314" height="918" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17398119" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17398119" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -278,6 +298,30 @@
     <entry file="file://$PROJECT_DIR$/css3_learn/sass/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="638" column="7" selection-start-line="638" selection-start-column="1" selection-end-line="638" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3_learn/css3_learn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1056" column="7" selection-start-line="1056" selection-start-column="7" selection-end-line="1056" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3_learn/css3_learn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3_learn/sass/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="525" column="6" selection-start-line="525" selection-start-column="6" selection-end-line="525" selection-end-column="6" />
           <folding />
         </state>
@@ -303,7 +347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="517" column="0" selection-start-line="517" selection-start-column="0" selection-end-line="517" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -340,7 +383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8258575">
           <caret line="611" column="0" selection-start-line="611" selection-start-column="0" selection-end-line="611" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -348,22 +390,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4505723">
           <caret line="376" column="38" selection-start-line="376" selection-start-column="38" selection-end-line="376" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css3_learn/sass/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.9444447">
-          <caret line="571" column="21" selection-start-line="571" selection-start-column="21" selection-end-line="571" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="638" column="7" selection-start-line="638" selection-start-column="1" selection-end-line="638" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css3_learn/css3_learn.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75989085">
-          <caret line="1072" column="22" selection-start-line="1072" selection-start-column="22" selection-end-line="1072" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.66984993">
+          <caret line="1236" column="13" selection-start-line="1236" selection-start-column="13" selection-end-line="1236" selection-end-column="13" />
           <folding />
         </state>
       </provider>

@@ -1037,7 +1037,7 @@
     </div>
 </div>
 <div class="list">
-    <h4>变形--缩放scale()</h4>
+    <h4>33.变形--缩放scale()</h4>
     <p>
         <b class="red">缩放 scale()函数</b> 让元素根据中心原点对对象进行缩放。 <br/>
         缩放 scale 具有三种情况 <br/>
@@ -1073,6 +1073,170 @@
     <div class="notice">
         注意： scale()的取值默认的值为1，当值设置为0.01到0.99之间的任何值，作用使一个元素缩小；而任何大于或等于1.01的值，作用是让元素放大。
     </div>
+</div>
+<div class="list">
+    <h4>34.变形-位移</h4>
+    <p>
+        <b class="red">translate()函数</b>可以将元素向指定的方向移动，类似于position中的relative。或以简单的理解为，使用translate()函数，可以把元素从原来的位置移动，而不影响在X、Y轴上的任何Web组件。
+        <br/>
+        translate我们分为三种情况。 <br/>
+        <b>1.translate(x,y)水平和垂直方向同时移动。</b>（也就是X轴和Y轴同时移动。） <br/>
+        <img src="img/translate1.jpg" alt=""/> <br/>
+        <b>2.translate(x)仅水平方向移动。</b>（X轴移动） <br/>
+        <img src="img/translate2.jpg" alt=""/> <br/>
+        <b>3.translate(Y) 仅垂直方向移动。</b>（Y轴移动） <br/>
+        <img src="img/translate3.jpg" alt=""/><br/>
+    </p>
+    <div class="lan">
+        事例：将一个不知道宽高的元素实现水平垂直居中。<br/>
+        HTML: <br/>
+        <textarea name="" id="" cols="30" rows="10">
+            <div class="translate">
+                <div class="translate_warp">
+                    我不知道我的宽度和高是多少，我要实现水平垂直居中
+                </div>
+            </div>
+        </textarea>
+        CSS： <br/>
+        <pre>
+            .translate{
+                position:relative;
+            }
+            .translate_warp{
+                position:absolute;
+                top:50%;
+                left:50%;
+                transfrom:translate(-50%,-50%);
+            }
+        </pre>
+        效果展示：
+        <div class="translate">
+            <div class="translate_warp">
+                我不知道我的宽度和高是多少，我要实现水平垂直居中
+            </div>
+        </div>
+    </div>
+</div>
+<div class="list">
+    <h4>35.变形-矩阵matrix()</h4>
+    <p>
+        <b class="red">matrix()</b> 是一个含六个值的(a,b,c,d,e,f)变换矩阵，用来指定一个2D变换，相当于直接应用一个[a b c d e f]变换矩阵。就是基于水平方向（X轴）和垂直方向（Y轴）重新定位元素,此属性值使用涉及到数学中的矩阵，我在这里只是简单的说一下CSS3中的transform有这么一个属性值，如果需要深入了解，需要对数学矩阵有一定的知识。
+    </p>
+    <div class="notice">
+       * matrix() 是一个含六个值的(a,b,c,d,e,f)变换矩阵，用来指定一个2D变换，相当于直接应用一个[a b c d e f]变换矩阵。就是基于水平方向（X轴）和垂直方向（Y轴）重新定位元素。<br/>
+        matrix(scaleX(),skewX(),skewY(),scaleY(),translateX(),translateY());
+    </div>
+    <div class="lan">
+        实例演示：通过matrix()函数来模拟transfrom：translate（）的位移效果。 <br/>
+        HTML: <br/>
+        <textarea name="" id="" cols="30" rows="10">
+            <div class="matrix">
+                <div></div>
+            </div>
+        </textarea>
+        CSS: <br/>
+        <pre>
+            .matrix {
+              width: 300px;
+              height: 200px;
+              border: 2px dotted red;
+              margin: 40px auto;
+            }
+            .matrix div {
+              width:300px;
+              height: 200px;
+              background: orange;
+              -webkit-transform: matrix(1,0,0,1,50,50);
+              -moz-transform:matrix(1,0,0,1,50,50);
+              transform: matrix(1,0,0,1,50,50);
+            }
+        </pre>
+        效果展示:
+        <div class="matrix">
+            <div></div>
+        </div>
+    </div>
+</div>
+<div class="list">
+    <h4>36.原点变形-transform-orgin</h4>
+    <p>
+        任何一个元素都有一个中心点，默认情况下，其中心点是居于元素X轴和Y轴50%处，如下图所示：<br/>
+        <img src="img/transform-orgin1.jpg" alt=""/> <br/>
+        在没有重置transform-orgin改变元素原点位置的情况下，CSS变形进行的旋转、位移、缩放，扭曲等操作都是以元素自己中心位置进行变形。但很多时候，我们可以通过transform-origin来对元素进行原点位置改变，使元素原点不在元素的中心位置，以达到需要的原点位置。
+        <br/>
+        transform-origin取值和元素设置背景中的background-position取值类似，如下表所示： <br/>
+        <img src="img/transform-orgin2.jpg" alt=""/>
+    </p>
+    <div class="lan">
+        实例展示：<br/>
+        通过transform-origin改变元素原点到左上角，然后进行顺时旋转45度。<br/>
+        HTML：<br/>
+        <textarea name="" id="" cols="30" rows="10">
+            <div class="wrapper">
+                <div>原点在默认位置处</div>
+            </div>
+            <div class="wrapper transform-origin">
+                <div>原点重置到左上角</div>
+            </div>
+        </textarea>
+        CSS:
+        <pre>
+            .wrapper {
+              width: 300px;
+              height: 300px;
+              float: left;
+              margin: 100px;
+              border: 2px dotted red;
+              line-height: 300px;
+              text-align: center;
+            }
+            .wrapper div {
+              background: orange;
+              -webkit-transform: rotate(45deg);
+              transform: rotate(45deg);
+            }
+            .transform-origin div {
+              -webkit-transform-origin: left top;
+              transform-origin: left top;
+            }
+        </pre>
+        效果展示:
+        <div class="clearfix">
+            <div class="origin">
+                <div>原点在默认位置处</div>
+            </div>
+            <div class="origin transform-origin">
+                <div>原点重置到左上角</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="list">
+    <h4>37.动画-过渡属性 transition-property</h4>
+    <p>
+        早期在Web中要实现动画效果，都是依赖于JavaScript或Flash来完成。但在CSS3中新增加了一个新的模块transition，它可以通过一些简单的CSS事件来触发元素的外观变化，让效果显得更加细腻。
+        <b>
+        简单点说，就是通过鼠标的单击、获得焦点，被点击或对元素任何改变中触发，并平滑地以动画效果改变CSS的属性值。
+        </b>
+    </p>
+    <div class="lan">
+        <pre>
+            在CSS中创建简单的过渡效果可以从以下几个步骤来实现：<br/>
+            第一，在默认样式中声明元素的初始状态样式；<br/>
+            第二，声明过渡元素最终状态样式，比如悬浮状态；<br/>
+            第三，在默认样式中通过添加过渡函数，添加一些不同的样式。<br/>
+        </pre>
+        CSS3的过渡transition属性是一个符合属性，主要包括以下几个子元素：<br/>
+        1.transition-property:指定过渡属性或动态模拟CSS属性。<br/>
+        2.transition-duration:指定完成过渡所需的时间 <br/>
+        3.transition-timing-function:指定过渡函数 <br/>
+        4.transition-delay:指定开始出现的延迟时间 <br/>
+    </div>
+    <p>
+        <b class="red">transition-property</b>用来指定过渡动画的CSS属性名称，而这个过渡属性只有具备一个中点值的属性（需要产生动画的属性）才能具备过渡效果，其对应具有过渡的CSS属性主要有：
+        <br/>
+
+    </p>
 </div>
 </body>
 </html>

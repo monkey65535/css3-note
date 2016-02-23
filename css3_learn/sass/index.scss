@@ -603,3 +603,58 @@ pre {
     }
   }
 }
+.translate{
+  width: 500px;
+  height: 300px;
+  border:1px dotted orange;
+  position: relative;
+  .translate_warp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: orange;
+    color: #ffffff;
+  }
+}
+.matrix{
+  width: 300px;
+  height: 200px;
+  border:1px dashed red;
+  div{
+    width: 300px;
+    height: 200px;
+    background: orange;
+    -webkit-transform: matrix(1,0,0,1,25,25);
+    -moz-transform: matrix(1,0,0,1,25,25);
+    -ms-transform: matrix(1,0,0,1,25,25);
+    -o-transform: matrix(1,0,0,1,25,25);
+    transform: matrix(1,0,0,1,25,25);
+  }
+}
+.origin{
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: 100px;
+  border:2px dotted red;
+  text-align: center;
+  div{
+    background: orange;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
+.transform-origin{
+  div{
+    transform-origin: left top;
+    -webkit-transform-origin: left top;
+  }
+}

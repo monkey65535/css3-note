@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbc4ebf7-7a7a-4fb2-9715-98a741b7ddde" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/animation-count.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/animation-delay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/animation-direction.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/animation-fill-mode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/animation-time-function.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/animation-time-function2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/keyframes.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/transition-timing-function.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/box.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/box2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/box3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/box4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/box5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/column-count.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/column-gap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/column-rule.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/column-span.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/column-width.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/columns.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/columns2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/columns3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/制作3D旋转导航.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3_learn/css3_learn.html" afterPath="$PROJECT_DIR$/css3_learn/css3_learn.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3_learn/css/index.css.map" afterPath="$PROJECT_DIR$/css3_learn/css/index.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3_learn/css/index.css" afterPath="$PROJECT_DIR$/css3_learn/css/index.css" />
@@ -35,21 +41,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="css3_learn.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="css3_learn.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css3_learn/css3_learn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75989085">
-              <caret line="1481" column="134" selection-start-line="1481" selection-start-column="134" selection-end-line="1481" selection-end-column="134" />
+            <state vertical-scroll-proportion="66.57692">
+              <caret line="1569" column="14" selection-start-line="1569" selection-start-column="14" selection-end-line="1569" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css3_learn/sass/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="279.87036">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.7199434">
+              <caret line="783" column="35" selection-start-line="783" selection-start-column="35" selection-end-line="783" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css3_learn/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="635" column="0" selection-start-line="635" selection-start-column="0" selection-end-line="635" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,8 +91,9 @@
         <option value="$PROJECT_DIR$/css3_learn/css/index.css" />
         <option value="$PROJECT_DIR$/css3_learn/text.html" />
         <option value="$PROJECT_DIR$/css3_learn/BGchange.html" />
-        <option value="$PROJECT_DIR$/css3_learn/sass/index.scss" />
+        <option value="$PROJECT_DIR$/css3_learn/3D.html" />
         <option value="$PROJECT_DIR$/css3_learn/css3_learn.html" />
+        <option value="$PROJECT_DIR$/css3_learn/sass/index.scss" />
       </list>
     </option>
   </component>
@@ -88,10 +105,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="411" />
-    <option name="y" value="141" />
+    <option name="x" value="674" />
+    <option name="y" value="121" />
     <option name="width" value="1332" />
-    <option name="height" value="918" />
+    <option name="height" value="920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -116,6 +133,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -138,9 +156,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css3-note" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css3-note" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css3_learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -172,8 +207,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\my por for github\css3-note\css3_learn\img" />
+      <recent name="D:\my por for github\css3-note\css3_learn" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\my por for github\css3-note\css3_learn" />
       <recent name="D:\my por for github\css3-note\css3_learn\img" />
     </key>
   </component>
@@ -231,14 +268,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="411" y="141" width="1332" height="918" extended-state="0" />
+    <frame x="674" y="121" width="1332" height="920" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17156105" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -249,6 +285,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -289,6 +326,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css3_learn/css3_learn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1481" column="134" selection-start-line="1481" selection-start-column="134" selection-end-line="1481" selection-end-column="134" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3_learn/sass/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css3_learn/css3_learn.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -378,37 +431,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3324397">
           <caret line="82" column="16" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3_learn/BGchange.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-318.15384">
+          <caret line="376" column="38" selection-start-line="376" selection-start-column="38" selection-end-line="376" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3_learn/制作3D旋转导航.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css3_learn/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8258575">
-          <caret line="611" column="0" selection-start-line="611" selection-start-column="0" selection-end-line="611" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3_learn/BGchange.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4505723">
-          <caret line="376" column="38" selection-start-line="376" selection-start-column="38" selection-end-line="376" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3_learn/sass/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="279.87036">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="635" column="0" selection-start-line="635" selection-start-column="0" selection-end-line="635" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css3_learn/css3_learn.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75989085">
-          <caret line="1481" column="134" selection-start-line="1481" selection-start-column="134" selection-end-line="1481" selection-end-column="134" />
+        <state vertical-scroll-proportion="66.57692">
+          <caret line="1569" column="14" selection-start-line="1569" selection-start-column="14" selection-end-line="1569" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3_learn/sass/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7199434">
+          <caret line="783" column="35" selection-start-line="783" selection-start-column="35" selection-end-line="783" selection-end-column="35" />
           <folding />
         </state>
       </provider>

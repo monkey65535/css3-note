@@ -815,4 +815,60 @@ pre {
   animation: chaneg 3s ease .1s;
 }
 
+.columns {
+  width: 500px;
+  padding: 5px;
+  border: 1px solid #eb444e;
+  columns: 150px 3;
+  -webkit-columns: 150px 3;
+  -moz-columns: 150px 3;
+}
+
+.box1 h1, .box2 h1 {
+  font-size: 20px;
+  margin: 0;
+  color: #fff;
+}
+.box1 .page, .box2 .page {
+  margin-bottom: 20px;
+}
+.box1 .page:after, .box1 .page:before, .box2 .page:after, .box2 .page:before {
+  content: "";
+  display: table;
+}
+.box1 .page:after, .box2 .page:after {
+  clear: both;
+  overflow: hidden;
+}
+.box1 .header, .box2 .header {
+  width: 100%;
+  background: green;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.box1 .main, .box2 .main {
+  width: 60%;
+  padding: 20px;
+  background: orange;
+  float: left;
+}
+.box1 .sidebar, .box2 .sidebar {
+  width: 38%;
+  float: right;
+  background: #f36;
+  padding: 20px;
+}
+.box1 .footer, .box2 .footer {
+  width: 100%;
+  background: #36f;
+  padding: 20px;
+  clear: both;
+}
+
+.box2 .header, .box2 .main, .box2 .sidebar, .box2 .footer {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /*# sourceMappingURL=index.css.map */

@@ -1499,5 +1499,96 @@
         Chrome 和 Safari 需要前缀 -webkit-。<br/>
     </p>
 </div>
+<div class="list">
+    <h4>51.多列布局-columns</h4>
+    <p>
+        为了能在Web页面中方便实现类似报纸、杂志那种多列排版的布局，W3C特意给CSS3增加了一个 <b>多列布局模块（CSS Multi Column Layout Module）</b>。它主要应用在文本的多列布局方面，这种布局在报纸和杂志上都使用了几十年了，但要在Web页面上实现这样的效果还是有相当大的难度，庆幸的是，CSS3的多列布局可以轻松实现。
+        <br/>
+        <img src="img/columns.png" alt=""/> <br/>
+        多列布局columns属性参数主要就两个属性参数：<b class="red">列宽和列数</b>。 <br/>
+        <img src="img/columns2.png" alt=""/> <br/>
+        <pre>columns:200px 2;</pre>
+        浏览器兼容性支持: <br/>
+        <img src="img/columns3.png" alt=""/>
+    </p>
+    <div class="lan">
+        效果展示: <br/>
+        <div class="columns">
+            <h2>我要分列显示</h2>
+            <p>为了能在Web页面中方便实现类似报纸、杂志那种多列排版的布局，W3C特意给CSS3增加了一个多列布局模块（CSS Multi Column Layout Module）。它主要应用在文本的多列布局方面。对于文本的多列布局，我想大家并不陌生，因为报纸和杂志上我们随处可见，这种布局在报纸和杂志上都使用了几十年了，但需要在Web页面上实现文本的多列布局，正如下图所示。</p>
+            <p>为了能在Web页面中方便实现类似报纸、杂志那种多列排版的布局，W3C特意给CSS3增加了一个多列布局模块（CSS Multi Column Layout Module）。它主要应用在文本的多列布局方面。对于文本的多列布局，我想大家并不陌生，因为报纸和杂志上我们随处可见，这种布局在报纸和杂志上都使用了几十年了，但需要在Web页面上实现文本的多列布局，正如下图所示。</p>
+        </div>
+    </div>
+</div>
+<div class="list">
+    <h4>52.多列布局:column-width</h4>
+    <p>column-width的使用和CSS中的width属性一样，不过不同的是，column-width属性在定义元素列宽的时候，既可以单独使用，也可以和多列属性中其他属性配合使用。其基本语法如下所示 ；</p>
+    <img src="img/column-width.png" alt=""/>
+</div>
+<div class="list">
+    <h4>53.多列布局：column-count</h4>
+    <p>
+        column-count属性主要用来给元素指定想要的列数和允许的最大列数。其语法规则：<br/>
+        <img src="img/column-count.png" alt=""/>
+    </p>
+</div>
+<div class="list">
+    <h4>53.多列布局:column-gap</h4>
+    <p>
+        column-gap主要用来设置列与列之间的间距，其语法规则如下： <br/>
+        <img src="img/column-gap.png" alt=""/>
+    </p>
+</div>
+<div class="list">
+    <h4>54.列表边框：column-rule</h4>
+    <p>column-rule主要是用来定义列与列之间的 <b>边框宽度、边框样式和边框颜色</b>。简单点说，就有点类似于常用的border属性。但column-rule是不占用任何空间位置的，在列与列之间改变其宽度不会改变任何列的位置。</p>
+    <img src="img/column-rule.png" alt=""/>
+</div>
+<div class="list">
+    <h4>55.跨列设置：column-span</h4>
+    <p>
+        <b class="red">column-span</b>主要用来定义一个分列元素中的子元素能跨列多少。column-width、column-count等属性能让一元素分成多列，不管里面元素如何排放顺序，他们都是从左向右的放置内容，但有时我们需要基中一段内容或一个标题不进行分列，也就是横跨所有列，此时column-span就可以轻松实现，此属性的语法如下。
+        <br/>
+        <img src="img/column-span.png" alt=""/>
+    </p>
+</div>
+<div class="list">
+    <h4>56.盒模型</h4>
+    CSS中有一种基础设计模式叫盒模型，盒模型定义了Web页面中的元素中如何来解析。CSS中每一个元素都是一个盒模型，包括html和body标签元素。在盒模型中主要包括width、height、border、background、padding和margin这些属性，而且他们之间的层次关系可以相互影响，来看一张盒模型的3D展示图：
+    <br/>
+    <img src="img/box.jpg" alt=""/> <br/>
+    从图中可以看出padding属性和content属性层叠background-image属性，层叠background-color属性，这个是存在的，它们四者之间构成了Ｚ轴（垂直屏幕的坐标）多重层叠关系。但是border属性与margin属性、padding属性三者之间应该是平面上的并级关系，并不能构成Ｚ轴的层叠关系。<br/>
+    <b class="red">box-sizing</b> <br/>
+    在CSS中盒模型被分为两种，第一种是w3c的标准模型，另一种是IE的传统模型，它们相同之处都是对元素计算尺寸的模型，具体说不是对元素的width、height、padding和border以及元素实际尺寸的计算关系，它们不同之处是两者的计算方法不一致，原则上来说盒模型是分得很细的，这里所看到的主要是外盒模型和内盒模型，如下面计算公式所示：<br/>
+    <img src="img/box2.png" alt=""/><br/>
+    <img src="img/box3.png" alt=""/> <br/>
+    在CSS3中新增加了box-sizing属性，能够事先定义盒模型的尺寸解析方式，其语法规则如下：<br/>
+    <pre>box-sizing: content-box | border-box | inherit</pre>
+    <img src="img/box4.png" alt=""/> <br/>
+    其中最为关键的是box-sizing中content-box和border-box两者的区别，他们之间的区别可以通过下图来展示，其对盒模型的不同解析： <br/>
+    <img src="img/box5.jpg" alt=""/> <br/>
+    效果展示：<br/>
+    没有增加box-sizing:box-border
+    <div class="box1">
+        <div class="header"><h1>Header Content</h1></div>
+        <div class="page">
+            <div class="main"><h1>Main Content</h1></div>
+            <div class="sidebar"><h1>Sidebar Content</h1></div>
+        </div>
+        <div class="footer"><h1>Footer Content</h1></div>
+    </div>
+    增加box-sizing:box-border
+    <div class="box2">
+        <div class="header"><h1>Header Content</h1></div>
+        <div class="page">
+            <div class="main"><h1>Main Content</h1></div>
+            <div class="sidebar"><h1>Sidebar Content</h1></div>
+        </div>
+        <div class="footer"><h1>Footer Content</h1></div>
+    </div>
+</div>
+<div class="list">
+    <h4>57.弹性布局：flex</h4>
+</div>
 </body>
 </html>

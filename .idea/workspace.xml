@@ -2,25 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbc4ebf7-7a7a-4fb2-9715-98a741b7ddde" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/box.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/box2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/box3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/box4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/box5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/column-count.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/column-gap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/column-rule.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/column-span.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/column-width.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/columns.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/columns2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/columns3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/制作3D旋转导航.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/media1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/media2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/media3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/media4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3_learn/img/media6.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3_learn/css3_learn.html" afterPath="$PROJECT_DIR$/css3_learn/css3_learn.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3_learn/css/index.css.map" afterPath="$PROJECT_DIR$/css3_learn/css/index.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3_learn/css/index.css" afterPath="$PROJECT_DIR$/css3_learn/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3_learn/sass/index.scss" afterPath="$PROJECT_DIR$/css3_learn/sass/index.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\.project" afterPath="$PROJECT_DIR$/jbt_themes/.project" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\404.php" afterPath="$PROJECT_DIR$/jbt_themes/404.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\ad-index.php" afterPath="$PROJECT_DIR$/jbt_themes/ad-index.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\ad-single-footer.php" afterPath="$PROJECT_DIR$/jbt_themes/ad-single-footer.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\ad-single-title.php" afterPath="$PROJECT_DIR$/jbt_themes/ad-single-title.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\ad-single.php" afterPath="$PROJECT_DIR$/jbt_themes/ad-single.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\archive.php" afterPath="$PROJECT_DIR$/jbt_themes/archive.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\author-bio.php" afterPath="$PROJECT_DIR$/jbt_themes/author-bio.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\comments.php" afterPath="$PROJECT_DIR$/jbt_themes/comments.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\content-aside.php" afterPath="$PROJECT_DIR$/jbt_themes/content-aside.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\content-audio.php" afterPath="$PROJECT_DIR$/jbt_themes/content-audio.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\content-chat.php" afterPath="$PROJECT_DIR$/jbt_themes/content-chat.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\content-gallery.php" afterPath="$PROJECT_DIR$/jbt_themes/content-gallery.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\content-image.php" afterPath="$PROJECT_DIR$/jbt_themes/content-image.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\content-link.php" afterPath="$PROJECT_DIR$/jbt_themes/content-link.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\content-none.php" afterPath="$PROJECT_DIR$/jbt_themes/content-none.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\content-quote.php" afterPath="$PROJECT_DIR$/jbt_themes/content-quote.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\content-status.php" afterPath="$PROJECT_DIR$/jbt_themes/content-status.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\content-video.php" afterPath="$PROJECT_DIR$/jbt_themes/content-video.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\content.php" afterPath="$PROJECT_DIR$/jbt_themes/content.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\functions.php" afterPath="$PROJECT_DIR$/jbt_themes/functions.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\header.php" afterPath="$PROJECT_DIR$/jbt_themes/header.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\image.php" afterPath="$PROJECT_DIR$/jbt_themes/image.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\blank.gif" afterPath="$PROJECT_DIR$/jbt_themes/img/blank.gif" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\bottom_bg.jpg" afterPath="$PROJECT_DIR$/jbt_themes/img/bottom_bg.jpg" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\btn_gz_180x70.png" afterPath="$PROJECT_DIR$/jbt_themes/img/btn_gz_180x70.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\con_bg.jpg" afterPath="$PROJECT_DIR$/jbt_themes/img/con_bg.jpg" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\connect-icons.png" afterPath="$PROJECT_DIR$/jbt_themes/img/connect-icons.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\connect-icons@2x.png" afterPath="$PROJECT_DIR$/jbt_themes/img/connect-icons@2x.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\dropmenu.png" afterPath="$PROJECT_DIR$/jbt_themes/img/dropmenu.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\dropmenu@2x.png" afterPath="$PROJECT_DIR$/jbt_themes/img/dropmenu@2x.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\head_bg.jpg" afterPath="$PROJECT_DIR$/jbt_themes/img/head_bg.jpg" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\home-icon.png" afterPath="$PROJECT_DIR$/jbt_themes/img/home-icon.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\loading.gif" afterPath="$PROJECT_DIR$/jbt_themes/img/loading.gif" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\loading@2x.gif" afterPath="$PROJECT_DIR$/jbt_themes/img/loading@2x.gif" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\loadmore.png" afterPath="$PROJECT_DIR$/jbt_themes/img/loadmore.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\loadmore@2x.png" afterPath="$PROJECT_DIR$/jbt_themes/img/loadmore@2x.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\logo.png" afterPath="$PROJECT_DIR$/jbt_themes/img/logo.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\logo@2x.png" afterPath="$PROJECT_DIR$/jbt_themes/img/logo@2x.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\logo@m.png" afterPath="$PROJECT_DIR$/jbt_themes/img/logo@m.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\m-btns.png" afterPath="$PROJECT_DIR$/jbt_themes/img/m-btns.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\newsletter_line.png" afterPath="$PROJECT_DIR$/jbt_themes/img/newsletter_line.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\newsletter_stamp.png" afterPath="$PROJECT_DIR$/jbt_themes/img/newsletter_stamp.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\pingback.png" afterPath="$PROJECT_DIR$/jbt_themes/img/pingback.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\pingback@2x.png" afterPath="$PROJECT_DIR$/jbt_themes/img/pingback@2x.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\post-formats.png" afterPath="$PROJECT_DIR$/jbt_themes/img/post-formats.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\post-formats@2x.png" afterPath="$PROJECT_DIR$/jbt_themes/img/post-formats@2x.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\rocket.png" afterPath="$PROJECT_DIR$/jbt_themes/img/rocket.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\rocket@2x.png" afterPath="$PROJECT_DIR$/jbt_themes/img/rocket@2x.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\share-icons.png" afterPath="$PROJECT_DIR$/jbt_themes/img/share-icons.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\share-icons@2x.png" afterPath="$PROJECT_DIR$/jbt_themes/img/share-icons@2x.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\sidebar-icons.png" afterPath="$PROJECT_DIR$/jbt_themes/img/sidebar-icons.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\sidebar-icons@2x.png" afterPath="$PROJECT_DIR$/jbt_themes/img/sidebar-icons@2x.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\sofa.png" afterPath="$PROJECT_DIR$/jbt_themes/img/sofa.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\sofa@2x.png" afterPath="$PROJECT_DIR$/jbt_themes/img/sofa@2x.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\watermark.png" afterPath="$PROJECT_DIR$/jbt_themes/img/watermark.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\img\weixin.png" afterPath="$PROJECT_DIR$/jbt_themes/img/weixin.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\inc\theme-ajaxcomment.php" afterPath="$PROJECT_DIR$/jbt_themes/inc/theme-ajaxcomment.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\inc\theme-customize.php" afterPath="$PROJECT_DIR$/jbt_themes/inc/theme-customize.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\inc\theme-options.php" afterPath="$PROJECT_DIR$/jbt_themes/inc/theme-options.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\inc\theme-widgets.php" afterPath="$PROJECT_DIR$/jbt_themes/inc/theme-widgets.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\index.php" afterPath="$PROJECT_DIR$/jbt_themes/index.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\js\script.js" afterPath="$PROJECT_DIR$/jbt_themes/js/script.js" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\js\vendor\fancybox\blank.gif" afterPath="$PROJECT_DIR$/jbt_themes/js/vendor/fancybox/blank.gif" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\js\vendor\fancybox\fancybox_loading.gif" afterPath="$PROJECT_DIR$/jbt_themes/js/vendor/fancybox/fancybox_loading.gif" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\js\vendor\fancybox\fancybox_loading@2x.gif" afterPath="$PROJECT_DIR$/jbt_themes/js/vendor/fancybox/fancybox_loading@2x.gif" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\js\vendor\fancybox\fancybox_overlay.png" afterPath="$PROJECT_DIR$/jbt_themes/js/vendor/fancybox/fancybox_overlay.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\js\vendor\fancybox\fancybox_sprite.png" afterPath="$PROJECT_DIR$/jbt_themes/js/vendor/fancybox/fancybox_sprite.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\js\vendor\fancybox\fancybox_sprite@2x.png" afterPath="$PROJECT_DIR$/jbt_themes/js/vendor/fancybox/fancybox_sprite@2x.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\js\vendor\fancybox\jquery.fancybox.css" afterPath="$PROJECT_DIR$/jbt_themes/js/vendor/fancybox/jquery.fancybox.css" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\js\vendor\fancybox\jquery.fancybox.pack.js" afterPath="$PROJECT_DIR$/jbt_themes/js/vendor/fancybox/jquery.fancybox.pack.js" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\js\vendor\html5shiv.min.js" afterPath="$PROJECT_DIR$/jbt_themes/js/vendor/html5shiv.min.js" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\js\vendor\jquery.inview.min.js" afterPath="$PROJECT_DIR$/jbt_themes/js/vendor/jquery.inview.min.js" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\js\vendor\jquery.lazyload.min.js" afterPath="$PROJECT_DIR$/jbt_themes/js/vendor/jquery.lazyload.min.js" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\js\vendor\nprogress.min.js" afterPath="$PROJECT_DIR$/jbt_themes/js/vendor/nprogress.min.js" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\js\vendor\responsiveslides.min.js" afterPath="$PROJECT_DIR$/jbt_themes/js/vendor/responsiveslides.min.js" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\js\vendor\snowfall.js" afterPath="$PROJECT_DIR$/jbt_themes/js/vendor/snowfall.js" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\page-about.php" afterPath="$PROJECT_DIR$/jbt_themes/page-about.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\page-archives.php" afterPath="$PROJECT_DIR$/jbt_themes/page-archives.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\page-blank.php" afterPath="$PROJECT_DIR$/jbt_themes/page-blank.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\page-full-width.php" afterPath="$PROJECT_DIR$/jbt_themes/page-full-width.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\page-guestbook.php" afterPath="$PROJECT_DIR$/jbt_themes/page-guestbook.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\page-links.php" afterPath="$PROJECT_DIR$/jbt_themes/page-links.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\page.php" afterPath="$PROJECT_DIR$/jbt_themes/page.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\screenshot.png" afterPath="$PROJECT_DIR$/jbt_themes/screenshot.png" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\search.php" afterPath="$PROJECT_DIR$/jbt_themes/search.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\searchform.php" afterPath="$PROJECT_DIR$/jbt_themes/searchform.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\sidebar.php" afterPath="$PROJECT_DIR$/jbt_themes/sidebar.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\single.php" afterPath="$PROJECT_DIR$/jbt_themes/single.php" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\style.css" afterPath="$PROJECT_DIR$/jbt_themes/style.css" />
+      <change type="MOVED" beforePath="D:\my por for github\css3-note\css3_learn\jbt_themes\theme-css.php" afterPath="$PROJECT_DIR$/jbt_themes/theme-css.php" />
     </list>
     <ignored path="css3-note.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,21 +123,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="css3_learn.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="css3_learn.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css3_learn/css3_learn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="66.57692">
-              <caret line="1569" column="14" selection-start-line="1569" selection-start-column="14" selection-end-line="1569" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.9399727">
+              <caret line="1700" column="8" selection-start-line="1700" selection-start-column="8" selection-end-line="1700" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css3_learn/sass/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7199434">
-              <caret line="783" column="35" selection-start-line="783" selection-start-column="35" selection-end-line="783" selection-end-column="35" />
+            <state vertical-scroll-proportion="-11.148149">
+              <caret line="305" column="26" selection-start-line="305" selection-start-column="26" selection-end-line="305" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -65,7 +147,7 @@
         <entry file="file://$PROJECT_DIR$/css3_learn/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="635" column="0" selection-start-line="635" selection-start-column="0" selection-end-line="635" selection-end-column="0" />
+              <caret line="646" column="0" selection-start-line="646" selection-start-column="0" selection-end-line="646" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,8 +174,8 @@
         <option value="$PROJECT_DIR$/css3_learn/text.html" />
         <option value="$PROJECT_DIR$/css3_learn/BGchange.html" />
         <option value="$PROJECT_DIR$/css3_learn/3D.html" />
-        <option value="$PROJECT_DIR$/css3_learn/css3_learn.html" />
         <option value="$PROJECT_DIR$/css3_learn/sass/index.scss" />
+        <option value="$PROJECT_DIR$/css3_learn/css3_learn.html" />
       </list>
     </option>
   </component>
@@ -105,9 +187,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="674" />
-    <option name="y" value="121" />
-    <option name="width" value="1332" />
+    <option name="x" value="394" />
+    <option name="y" value="141" />
+    <option name="width" value="1284" />
     <option name="height" value="920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -133,7 +215,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -151,10 +233,6 @@
               <option name="myItemId" value="css3-note" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css3_learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -169,14 +247,10 @@
               <option name="myItemId" value="css3_learn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,6 +284,7 @@
       <recent name="D:\my por for github\css3-note\css3_learn" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\my por for github\css3-note" />
       <recent name="D:\my por for github\css3-note\css3_learn" />
       <recent name="D:\my por for github\css3-note\css3_learn\img" />
     </key>
@@ -268,10 +343,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="674" y="121" width="1332" height="920" extended-state="0" />
+    <frame x="394" y="141" width="1284" height="920" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17156105" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17817014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -326,6 +401,78 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css3_learn/css3_learn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1569" column="14" selection-start-line="1569" selection-start-column="14" selection-end-line="1569" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3_learn/sass/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3_learn/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="641" column="0" selection-start-line="641" selection-start-column="0" selection-end-line="641" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3_learn/css3_learn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1569" column="14" selection-start-line="1569" selection-start-column="14" selection-end-line="1569" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3_learn/sass/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3_learn/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="641" column="0" selection-start-line="641" selection-start-column="0" selection-end-line="641" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3_learn/css3_learn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1569" column="14" selection-start-line="1569" selection-start-column="14" selection-end-line="1569" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3_learn/sass/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3_learn/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="635" column="0" selection-start-line="635" selection-start-column="0" selection-end-line="635" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css3_learn/css3_learn.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -438,7 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-318.15384">
           <caret line="376" column="38" selection-start-line="376" selection-start-column="38" selection-end-line="376" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -446,30 +592,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css3_learn/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="635" column="0" selection-start-line="635" selection-start-column="0" selection-end-line="635" selection-end-column="0" />
+          <caret line="646" column="0" selection-start-line="646" selection-start-column="0" selection-end-line="646" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jbt_themes/js/vendor/fancybox/blank.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3_learn/sass/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.148149">
+          <caret line="305" column="26" selection-start-line="305" selection-start-column="26" selection-end-line="305" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css3_learn/css3_learn.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="66.57692">
-          <caret line="1569" column="14" selection-start-line="1569" selection-start-column="14" selection-end-line="1569" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3_learn/sass/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7199434">
-          <caret line="783" column="35" selection-start-line="783" selection-start-column="35" selection-end-line="783" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.9399727">
+          <caret line="1700" column="8" selection-start-line="1700" selection-start-column="8" selection-end-line="1700" selection-end-column="8" />
           <folding />
         </state>
       </provider>

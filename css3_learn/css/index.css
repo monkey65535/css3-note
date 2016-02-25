@@ -118,7 +118,7 @@ pre {
   text-align: left;
   font-weight: bold;
   background: #eee;
-  line-height: 12px;
+  line-height: 14px;
   padding-top: 10px;
   border-radius: 10px;
   padding-right: 40px;
@@ -869,6 +869,11 @@ pre {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+.wlan img {
+  display: inline-block;
+  vertical-align: top;
 }
 
 /*# sourceMappingURL=index.css.map */
